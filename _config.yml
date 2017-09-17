@@ -3,7 +3,7 @@
 
 title: Tutoriais
 url: "https://contadoria.github.io/tutoriais/"
-baseurl:
+baseurl: https://contadoria.github.io/tutoriais/
 google_analytics_key:
 disqus_shortname:
 newsletter_action:
