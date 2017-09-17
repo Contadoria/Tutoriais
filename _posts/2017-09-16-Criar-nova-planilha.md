@@ -20,7 +20,7 @@ Para visualizar a pasta **Distribuição**, acesse este <a href="https://drive.g
 
 Você deverá encontrar algo parecido com a seguinte imagem:
 
-![Pasta Distribuição](/images/Planilhas_Tela_Distribuicao.png)
+![Pasta Distribuição]({{ site.baseurl }}{% link /images/Planilhas_Tela_Distribuicao.png %})
 
 > **Atenção**: Você deve estar logado no *Google Drive*. Se ainda não estiver, clique em “**fazer login**” e digite seu nome de usuário e senha.
 
@@ -30,13 +30,13 @@ Abra a planilha que deseja copiar, clicando nela duas vezes.
 
 A planilha será aberta no seu browser. Note, contudo, que você não terá permissão para editá-la:
 
-![Planilha](/images/Planilhas_Tela_Planilha_01.png)
+![Planilha]({{ site.baseurl }}{% link /images/Planilhas_Tela_Planilha_01.png %})
 
 Para começar a usar a planilha, você deve primeiro copiá-la para o seu *Drive*.
 
 Acesse o menu `Arquivo > Fazer uma cópia`, conforme mostrado abaixo:
 
-![Planilha](/images/Planilhas_Tela_Planilha_02.png)
+![Planilha]({{ site.baseurl }}{% link /images/Planilhas_Tela_Planilha_02.png %})
 
 Agora você poderá ecolher um nome para a sua planilha e a pasta de destino no seu drive.
 
@@ -44,10 +44,10 @@ Agora você poderá ecolher um nome para a sua planilha e a pasta de destino no 
 
 Quando estiver tudo pronto, clique em `OK`.
 
-![Planilha](/images/Planilhas_Tela_Planilha_06.png)
+![Planilha]({{ site.baseurl }}{% link /images/Planilhas_Tela_Planilha_06.png %})
 
 **PRONTO!**
 
 A sua cópia já está criada e armazenada no seu *Drive*. Agora você pode utilizá-la para fazer o seu novo cálculo.
 
-![Planilha](/images/Planilhas_Tela_Planilha_07.png)
+![Planilha]({{ site.baseurl }}{% link /images/Planilhas_Tela_Planilha_07.png %})

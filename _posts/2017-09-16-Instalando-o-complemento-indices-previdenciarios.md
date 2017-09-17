@@ -14,7 +14,7 @@ Acesse a página do complemento na *Chrome Web Store* por meio deste [link](http
 
 Na porção superior direita da tela você verá um botão azul de instalação:
 
-![Botão instalar](/images/Botao_instalar.png)
+![Botão instalar]({{ site.baseurl }}{% link /images/Botao_instalar.png %})
 
 Clique em "+". O *Google* abrirá automaticamente uma nova planilha, sem nome, para finalizar a instalação. Pode ser também que o *Google* lhe dê instruções adicionais. Basta segui-las.
 
@@ -22,7 +22,7 @@ Clique em "+". O *Google* abrirá automaticamente uma nova planilha, sem nome, p
 
 Uma vez instalado o complemento, um novo item aparecerá no menu "**Complementos**" de sua planilha, conforme a figura abaixo.
 
-![Screenshot](/images/Indices_Menu_Complemento.png)
+![Screenshot]({{ site.baseurl }}{% link /images/Indices_Menu_Complemento.png %})
 
 Selecione a opção "**Usar nesta planilha**" para ativar as funções customizadas.
 
@@ -32,7 +32,7 @@ Na primeira vez que você utilizar o complemento, o *Google* lhe mostrará uma t
 
 Uma vez autorizado e ativado o complemento, as funções customizadas estarão disponíveis normalmente em sua planilha. Elas aparecerão, inclusive, no *autocomplete*.
 
-![Screenshot](/images/Indices_Autocomplete.png)
+![Screenshot]({{ site.baseurl }}{% link /images/Indices_Autocomplete.png %})
 
 > **Dica**: Se você não estiver encontrando as funções no *autocomplete*, pode ser que não as tenha ainda habilitado na planilha que está usando. Nesse caso, selecione novamente a opção "**Usar nesta planilha**" no menu "**Complementos**" e elas deverão aparecer para você.
 
@@ -63,6 +63,6 @@ d) `SGS_SELIC_MENSAL(DATE(2016;1;1); DATE(2016;4;1))`: igual ao item "c".
 
 O resultado da consulta é apresentado em três colunas, cada qual com a seguinte informação: 1) data do índice, 2) valor do índice e 3) texto com os dados da fonte. Veja abaixo:
 
-![Screenshot](/images/Indices_Dados_Baixados.png)
+![Screenshot]({{ site.baseurl }}{% link /images/Indices_Dados_Baixados.png %})
 
 Se a consulta não retornar valores, você verá na célula o erro `#REF`.
