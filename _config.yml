@@ -3,7 +3,7 @@
 
 title: Tutoriais
 url: "https://contadoria.github.io/tutoriais/"
-baseurl: https://contadoria.github.io/tutoriais/
+baseurl: 
 google_analytics_key:
 disqus_shortname:
 newsletter_action:
@@ -16,7 +16,7 @@ author:
   email:
   twitter: # twitter username without the @ symbol
 social:
-  name: Proejto Contadoria - Templates
+  name: Projeto Contadoria - Templates
   links:
     - https://github.com/contadoria/tutoriais/
 
