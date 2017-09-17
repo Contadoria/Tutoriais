@@ -1,8 +1,12 @@
 - name: Tutoriais
   link: /
+  new_window: false
 - name: Vídeos
   link: /videos/
+  new_window: false  
 - name: Perguntas frequentes
   link: /faq/
+  new_window: false  
 - name: Github
   link: https://github.com/Contadoria/tutoriais
+  new_window: true
