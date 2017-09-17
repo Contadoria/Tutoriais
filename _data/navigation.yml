@@ -1,0 +1,8 @@
+- name: Tutoriais
+  link: /
+- name: Vídeos
+  link: /videos/
+- name: Perguntas frequentes
+  link: /faq/
+- name: Github
+  link: https://github.com/Contadoria/tutoriais
