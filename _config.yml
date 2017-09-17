@@ -2,16 +2,8 @@
 # Site
 
 title: Tutoriais
-<<<<<<< HEAD
 url: "https://contadoria.github.io/tutoriais"
 baseurl: "/tutoriais"
-||||||| merged common ancestors
-url: "https://contadoria.github.io/tutoriais/"
-baseurl: 
-=======
-url: "https://contadoria.github.io/tutoriais"
-baseurl: /tutoriais
->>>>>>> 09e6efb004f7fe5811b8e20ab24d396fe954f852
 google_analytics_key:
 disqus_shortname:
 newsletter_action:
