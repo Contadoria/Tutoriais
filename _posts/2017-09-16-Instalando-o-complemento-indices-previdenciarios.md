@@ -6,11 +6,11 @@ categories:
 description: "Como instalar e usar o complemento"
 type: Document
 ---
-O complemento **Índices Previdenciários** disponibiliza nas planilhas *Google Sheets* fórmulas customizadas que permitem a consulta direta aos sistemas [SIDRA/IBGE](https://sidra.ibge.gov.br/home/abate/brasil) e [SGS/BACEN](https://www3.bcb.gov.br/sgspub/localizarseries/localizarSeries.do?method=prepararTelaLocalizarSeries) para obtenção das séries históricas de índices de atualização e taxas de juros utilizados nos cálculos previdenciários.
+O complemento **Índices Previdenciários** disponibiliza nas planilhas *Google Sheets* fórmulas customizadas que permitem a consulta direta aos sistemas <a href="https://sidra.ibge.gov.br/home/abate/brasil" target="_blank">SIDRA/IBGE</a> e <a href="https://www3.bcb.gov.br/sgspub/localizarseries/localizarSeries.do?method=prepararTelaLocalizarSeries" target="_blank">SGS/BACEN</a> para obtenção das séries históricas de índices de atualização e taxas de juros utilizados nos cálculos previdenciários.
 
 ## Como instalar
 
-Acesse a página do complemento na *Chrome Web Store* por meio deste [link](https://chrome.google.com/webstore/detail/%C3%ADndices-previdenci%C3%A1rios/gjllgdjhcjmkpkpihigkighfegolinek?hl=pt-BR).
+Acesse a página do complemento na *Chrome Web Store* por meio deste <a href="https://chrome.google.com/webstore/detail/%C3%ADndices-previdenci%C3%A1rios/gjllgdjhcjmkpkpihigkighfegolinek?hl=pt-BR" target="_blank">link</a>.
 
 Na porção superior direita da tela você verá um botão azul de instalação:
 
@@ -49,7 +49,7 @@ Sempre que você omitir argumentos, será utilizada a data de hoje.
 > **Dicas**: 
 > 1) Como em todas as funções nativas ou customizadas, você também pode inserir, no lugar dos argumentos, uma referência a outra célula que contenha o valor da data a ser utilizado. 
 > 2) Em *Google Sheets*, as strings devem ser sempre informadas entre aspas.
-> 3) Para detalhes sobre como utilizar a função `DATE()`, veja [aqui](https://support.google.com/docs/answer/3092969).
+> 3) Para detalhes sobre como utilizar a função `DATE()`, veja <a href="https://support.google.com/docs/answer/3092969" target="_blank">aqui</a>.
 
 Exemplos de consulta:
 
