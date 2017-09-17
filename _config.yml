@@ -2,8 +2,8 @@
 # Site
 
 title: Tutoriais
-url: "https://contadoria.github.io/tutoriais/"
-baseurl: 
+url: "https://contadoria.github.io/tutoriais"
+baseurl: /tutoriais
 google_analytics_key:
 disqus_shortname:
 newsletter_action:
