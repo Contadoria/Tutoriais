@@ -1,9 +1,9 @@
 ---
 date: 2017-09-16
-title: Primeiros passos
+title: Instalando o complemento
 categories:
-  - Índices Previdenciários
-description: "Como instalar e usar o complemento"
+  - indices-previdenciarios
+description: Neste tutorial você aprenderá como instalar e utilizar o complemento Índices Previdenciários.
 type: Document
 ---
 O complemento **Índices Previdenciários** disponibiliza nas planilhas *Google Sheets* fórmulas customizadas que permitem a consulta direta aos sistemas [SIDRA/IBGE](https://sidra.ibge.gov.br/home/abate/brasil) e [SGS/BACEN](https://www3.bcb.gov.br/sgspub/localizarseries/localizarSeries.do?method=prepararTelaLocalizarSeries) para obtenção das séries históricas de índices de atualização e taxas de juros utilizados nos cálculos previdenciários.

@@ -4,12 +4,7 @@ layout: default
 
 <section class="tutorial">
 	<section class="sidebar sticky">
-		<ul>
-			{% assign sub_navigation = content | extract_element: 'h2' %}
-			{% for item in sub_navigation %}
-				<li><a href="#{{ item.id }}">{{ item.text }}</a></li>
-			{% endfor %}
-		</ul>
+		<ul class="titles-list"></ul>
 	</section>
 	<section class="tutorial-content">
 		<h1>{{ page.title }}</h1>
@@ -31,21 +26,17 @@ layout: default
 		<div class="tutorial-main">
 			{{ content }}
 		</div>
-		<div class="tutorial-share">
-			<a class="modalOpen no-smooth" href="#subscribe">{% include social-icon.html icon="Email" %} Inscreva-se</a>
-			<a class="modalOpen no-smooth" href="#share">{% include social-icon.html icon="Share" %} Compartilhe</a>
-		</div>
 	</section>
 </section>
 
 {% if page.set %}
 	{% assign set_file_name = "_sets/" | append: page.set | append: ".md" %}
-	{% assign set = site.sets | where: "title", "Getting Started" | first %}
+	{% assign set = site.sets | where: "title", "Primeiros Passos" | first %}
 	{% assign series_posts = site.posts | where: "set", page.set %}
 	<div class="tutorial-series">
-		<h3>{{ set.title }} - Series</h3>
-		<p>{{ set.description }}</p>
-
+		<h3>Série <b><i>{{ set.title }}</i></b></h3>
+		<p class="description">{{ set.description }}</p>
+		
 		{% include listings.html listings=series_posts numbered=true%}
 	</div>
 {% endif %}
@@ -59,57 +50,22 @@ layout: default
 	</div>
 {% endif %}
 
-{% if site.disqus_shortname and page.comments %}
-	<div id="disqus_thread"></div>
-	<script>
-		var disqus_shortname = '{{ site.disqus_shortname }}';
-		var disqus_config = function () {
-			this.page.url = "{{ page.url | prepend: site.url }}";
-			this.page.identifier = "{{ page.id }}";
-		};
-		(function() {  // DON'T EDIT BELOW THIS LINE
-			var d = document, s = d.createElement('script');
-			s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-			s.setAttribute('data-timestamp', +new Date());
-			(d.head || d.body).appendChild(s);
-		})();
-	</script>
-	<noscript>Habilite o JavaScript no seu browser para ver os <a href="https://disqus.com/?ref_noscript" rel="nofollow">comentários pelo Disqus.</a></noscript>
-{% endif %}
-
-<div id="subscribe" class="modalDialog">
-	<div>
-		<a title="Close" class="close">&times;</a>
-		<form action="{{ site.newsletter_action }}" method="post">
-			<h2>Inscreva-se</h2>
-			<p>E receba informações sobre os tutoriais no seu e-mail.</p>
-			<input type="email" name="EMAIL" placeholder="Email">
-			<input type="submit" value="Sign up">
-		</form>
-	</div>
-</div>
-
-<div id="share" class="modalDialog sharing">
-	<div>
-		<a title="Close" class="close">&times;</a>
-		<h2>Compartilhe</h2>
-		<p>Envie este tutorial para seus colegas e amigos.</p>
-		<ul>
-			<li><a class="twitter" target="_blank" href="https://twitter.com/intent/tweet?url={{ page.url | prepend: site.url | cgi_escape }}">{% include social-icon.html icon="Twitter" %} Twitter</a></li>
-			<li><a class="facebook" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | prepend: site.url | cgi_escape }}">{% include social-icon.html icon="Facebook2" %} Facebook</a></li>
-			<li><a class="google-plus" target="_blank" href="https://plus.google.com/share?url={{ page.url | prepend: site.url | cgi_escape }}">{% include social-icon.html icon="Google Plus" %} Google+</a></li>
-			<li><a class="hacker-news" target="_blank" href="http://news.ycombinator.com/submitlink?u={{ page.url | prepend: site.url | cgi_escape }}&t={{ page.title | cgi_escape | replace: "+", "%20" }}">{% include social-icon.html icon="Hacker News" %} Hacker News</a></li>
-		</ul>
-	</div>
-</div>
-
 <script src="{{ site.baseurl }}/js/main.js"></script>
 
 <script>
 	var headings = document.querySelectorAll("h2[id]");
+	var sideNav = $(".titles-list");
 
-	console.log(headings);
 	for (var i = 0; i < headings.length; i++) {
+
+		var listItem = document.createElement("li");
+		var insideLink = document.createElement("a");
+		insideLink.innerText = headings[i].innerText;
+		insideLink.href = "#" + headings[i].id;
+
+		listItem.appendChild(insideLink);
+		sideNav.append(listItem);
+
 		var anchorLink = document.createElement("a");
 		anchorLink.innerText = "#";
 		anchorLink.href = "#" + headings[i].id;
@@ -118,28 +74,4 @@ layout: default
 		headings[i].appendChild(anchorLink);
 	}
 
-	$(".modalOpen").click(function() {
-		var id = $(this).attr("href");
-		$(id).addClass("show");
-
-		$(window).click(function() {
-			$(".show").removeClass("show");
-		});
-
-		$(id + " > div").click(function(event){
-			event.stopPropagation();
-		});
-		return false;
-	});
-
-	$(".close").click(function() {
-		$(".show").removeClass("show");
-		return false;
-	});
-
-	$(document).keyup(function(e) {
-		if (e.keyCode == 27) {
-			$(".show").removeClass("show");
-		}
-	});
 </script>

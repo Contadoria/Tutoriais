@@ -1,0 +1,18 @@
+indices-previdenciarios:
+  title: Índices Previdenciários
+  type: complemento
+calculos-previdenciarios:
+  title: Cálculos Previdenciários
+  type: complemento
+desenvolvimento-de-planilhas:
+  title: Desenvolvimento de Planilhas
+  type: complemento
+planilha-tc:
+  title: Planilha TC
+  type: planilha
+planilha-rmi:
+  title: Planilha RMI
+  type: planilha
+planilha-atrasados:  
+  title: Planilha Atrasados
+  type: planilha

@@ -47,8 +47,6 @@ function getClosestHeader() {
 	$last = $links.first(),
 	$content = $(".tutorial-content");
 
-	console.log(top);
-
 	if (top < 300) {
 		return $last;
 	}

@@ -1,0 +1,7 @@
+---
+layout: default
+---
+{% assign posts = site.categories[page.tag] | sort: "title" %}
+<h2>{{ site.data.categories[page.tag].title }} <span class="count">({{ posts | size }})</span></h2>
+
+{% include listings.html listings=posts %}

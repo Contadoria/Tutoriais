@@ -1,12 +1,13 @@
 ---
 date: 2017-09-11
-title: Criar nova planilha 
+title: Criando uma nova planilha 
 categories:
-  - Planilha TC
-  - Planilha RMI
-  - Planilha Atrasados
-description: "Como criar uma cópia da planilha para utilização"
+  - planilha-tc
+  - planilha-rmi
+  - planilha-atrasados
+description: Este tutorial explica como obter uma planilha de cálculo "em branco" para iniciar um novo cálculo.
 type: Document
+set: primeiros-passos
 ---
 Neste tutorial mostraremos como você pode iniciar um novo cálculo do "zero", fazendo uma cópia, para o seu *Drive*, de qualquer uma das planilhas na pasta **Distribuição**.
 
