@@ -19,7 +19,7 @@ collections:
   sets:
   category:
     output: true
-    permalink: /categoria/:name
+    permalink: /categoria/:name/
 
 defaults:
   -
