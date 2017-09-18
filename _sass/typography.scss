@@ -131,12 +131,25 @@ blockquote {
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	margin: 1.75em 0 1.75em -2.2em;
-	padding: 0 0 0 1.75em;
-	border-left: #4A4A4A 0.4em solid
+	padding: 0.3em 0.3em 0.3em 1.75em;
+	font-size: 0.9em;
+	@include note-normal();
+
+	&.tip {
+		@include note-tip();
+	}
+	
+	&.warning {
+		@include note-warning();
+	}
+	
+	&.danger {
+		@include note-danger();
+	}
 }
 
 blockquote p {
-	margin: 0.8em 0;
+	margin: 0.8em 0.8em;
 	font-style: italic
 }
 
@@ -144,7 +157,7 @@ blockquote small {
 	display: inline-block;
 	margin: 0.8em 0 0.8em 1.5em;
 	font-size: 0.9em;
-	color: #CCC
+	color: #969696
 }
 
 blockquote small:before {

@@ -1,0 +1,17 @@
+<blockquote class="{{ include.type }}">
+	<p>
+		{% if include.type == "tip" %}
+		<span style="font-weight: bold;">Dica: </span>
+		{% elsif include.type == "warning" %}
+		<span style="font-weight: bold;">Atenção! </span>
+		{% elsif include.type == "danger" %}
+		<span style="font-weight: bold;">Cuidado! </span>
+		{% else %}
+		<span style="font-weight: bold;">Nota: </span>
+		{% endif %}
+		<span>{{ include.text }}</span>
+	</p>
+	{% if include.small %}
+	<small>{{ include.small }}</small>
+	{% endif %}
+</blockquote>

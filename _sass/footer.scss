@@ -16,9 +16,13 @@ footer {
 	}
 
 	a {
-		color: #fff;
+		color: $medium-grey;
 		text-decoration: none;
 
+		&:hover {
+			color: #fff;
+		}
+		
 		&:hover svg {
 			fill: #fff;
 		}

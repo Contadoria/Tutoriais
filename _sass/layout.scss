@@ -49,3 +49,42 @@ dt, h2 {
 		height: 100%;
 	}
 }
+
+/**
+* https://cloudcannon.com/deconstructions/2014/11/21/flat-css-browser-wrapper.html
+*/
+
+.image_wrapper {
+	padding: 20px 0 0;
+	margin-bottom: 30px;
+    border-radius: 3px;
+    border-bottom: 2px solid #ccc;
+    background: #ddd;
+    display: inline-block;
+    position: relative;
+	line-height: 0;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: box-shadow 0.3s ease-in;
+
+	&:hover {
+		box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+	}
+	
+	&.frame {
+		display: block;
+		height: 15px;
+		position: absolute;
+		top: 5px;
+		left: 1px;
+	}	
+
+	span {
+		height: 8px;
+		width: 8px;
+		border-radius: 8px;
+		background-color: #eee;
+		border: 1px solid #dadada;
+		float: left;
+		margin: 0 0 0 4px;
+	}
+}

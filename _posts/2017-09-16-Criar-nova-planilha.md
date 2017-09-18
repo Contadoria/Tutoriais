@@ -13,17 +13,17 @@ Neste tutorial mostraremos como você pode iniciar um novo cálculo do "zero", f
 
 ## Acessando a pasta **Distribuição**
 
-Todas as planilhas de cálculo desenvolvidas pelo **Projeto Contadoria** são distribuídas aos usuários por meio da pasta **Distribuição**.
+Todas as planilhas de cálculo desenvolvidas pelo **Projeto Contadoria** são distribuídas aos usuários por meio da pasta **Distribuição**. 
 
-> **Atenção**: **_Sempre_** crie suas novas planilhas a partir das planilhas colocadas naquela pasta. Assim você terá a certeza de que está com a última versão em mãos, sem correr o risco de utilizar uma versão antiga, com algum defeito que já pode ter sido resolvido há tempos.
+Clique [aqui](https://drive.google.com/drive/folders/0B2B1B7RRK5HmS0I2clRTTTJiMXc){:target="_blank"} para acessá-la. 
 
-Para visualizar a pasta **Distribuição**, acesse este <a href="https://drive.google.com/drive/folders/0B2B1B7RRK5HmS0I2clRTTTJiMXc" target="_blank">link</a>
+{% include note.html type="warning" text="<b>Sempre</b> crie suas novas planilhas a partir das que estão na pasta <b>Distribuição</b>. Assim você terá a certeza de que está com a última versão em mãos, sem correr o risco de utilizar uma versão antiga, com algum defeito que já pode ter sido resolvido há tempos." %}
 
-Você deverá encontrar algo parecido com a seguinte imagem:
+Ao acessar a pasta **Distribuição**, Você deverá encontrar algo parecido com a seguinte imagem:
 
-![Pasta Distribuição]({{ site.baseurl }}{% link /images/Planilhas_Tela_Distribuicao.png %})
+{% include image.html url="/images/Planilhas_Tela_Distribuicao.png" description="Pasta Distribuição." %}
 
-> **Atenção**: Você deve estar logado no *Google Drive*. Se ainda não estiver, clique em “**fazer login**” e digite seu nome de usuário e senha.
+{% include note.html type="normal" text="Você deve estar logado no <b>Google Drive</b>. Se ainda não estiver, clique em “<b>fazer login</b>” e digite seu nome de usuário e senha." %}
 
 ## Copiando uma planilha
 
@@ -31,24 +31,24 @@ Abra a planilha que deseja copiar, clicando nela duas vezes.
 
 A planilha será aberta no seu browser. Note, contudo, que você não terá permissão para editá-la:
 
-![Planilha]({{ site.baseurl }}{% link /images/Planilhas_Tela_Planilha_01.png %})
+{% include image.html url="/images/Planilhas_Tela_Planilha_01.png" description="Sem permissão para editar." %}
 
 Para começar a usar a planilha, você deve primeiro copiá-la para o seu *Drive*.
 
 Acesse o menu `Arquivo > Fazer uma cópia`, conforme mostrado abaixo:
 
-![Planilha]({{ site.baseurl }}{% link /images/Planilhas_Tela_Planilha_02.png %})
+{% include image.html url="/images/Planilhas_Tela_Planilha_02.png" description="Fazendo uma cópia." %}
 
 Agora você poderá ecolher um nome para a sua planilha e a pasta de destino no seu drive.
 
-> **Dica**: Você pode criar no seu *Drive* quantas pastas quiser para melhor organizar as planilhas, exatamente como faz no seu computador ou na rede institucional.
+{% include note.html type="tip" text="Você pode criar no seu <b>Drive</b> quantas pastas quiser para melhor organizar as planilhas, exatamente como faz no seu computador ou na rede institucional." %}
 
-Quando estiver tudo pronto, clique em `OK`.
+{% include image.html url="/images/Planilhas_Tela_Planilha_06.png" description="Confirmando." %}
 
-![Planilha]({{ site.baseurl }}{% link /images/Planilhas_Tela_Planilha_06.png %})
+Quando estiver tudo selecionado, clique em `OK`.
 
 **PRONTO!**
 
-A sua cópia já está criada e armazenada no seu *Drive*. Agora você pode utilizá-la para fazer o seu novo cálculo.
+A sua cópia já está criada e armazenada no *Drive*. Agora você pode utilizá-la para fazer o seu novo cálculo.
 
-![Planilha]({{ site.baseurl }}{% link /images/Planilhas_Tela_Planilha_07.png %})
+{% include image.html url="/images/Planilhas_Tela_Planilha_07.png" description="Tudo pronto." %}

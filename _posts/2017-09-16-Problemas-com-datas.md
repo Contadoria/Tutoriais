@@ -8,47 +8,55 @@ categories:
 description: Este tutorial explica por que você pode ter problemas com as datas em Google Sheets e o que fazer. para prevenir-se
 type: Document
 ---
-Neste tutorial explicamos como o *Google Sheets* interpreta as datas inseridas nas planilhas e nos complementos,como e por que os cálculos com datas podem dar errado e o que se pode fazer para evitar que tais erros aconteçam.
+Neste tutorial explicaremos como o *Google Sheets* interpreta as datas inseridas nas planilhas e nos complementos, como e por que os cálculos com datas podem dar errado e o que se pode fazer para evitar que tais erros aconteçam.
 
 ## Como as datas são interpretadas em *Google Sheets*
 
-Assim como em *Excel*, é também um desafio para o iniciante em *Google Sheets* descobrir como efetuar corretamente os cálculos com datas.
+Trabalhar com datas já era um desafio em *Excel* e assim permanece em *Google Sheets*. A razão disso é que os sistemas computacionais manipulam as datas de um modo muito especial, diferente dos outros tipos de valores.
 
-A razão da dificuldade está no modo peculiar como as datas são interpretadas pelas planilhas e pelos complementos. 
+Para que as datas possam ser comparadas entre si e utilizadas em fórmulas matemáticas, os computadores precisam tratá-las como números sequenciais simples. Desse modo, uma data é posterior a outra se seu número é maior, e anterior se menor. Duas datas são iguais se correspondem a um mesmo número.
 
-Para que as datas possam ser comparadas e utilizadas em cálculos matemáticos, os computadores as tratam como números sequenciais. Esse é o modo como distinguem dois instantes diferentes no tempo, cada instante correspondendo a um número único e irrepetível.
+Já os seres humanos utilizam no dia-a-dia uma notação bem mais complexa para expressar datas. 
 
-Já o ser humano expressa uma data utilizando três valores diferentes: um expresso com numeração sequencial e irrepetível (o ano) e outros dois expressos com numeração cíclica, que se repete de tempos em tempos (os meses e dias). Assim, na forma como o ser humano utiliza as datas em seu cotidiano, dois instantes diferentes no tempo podem trazer os mesmo valores para o mês e o dia.
+Costumamos utilizar um conjunto de três números: 1) o ano, que é parte de uma sequência numérica teoricamente infinita e irrepetível, isto é, cada ano tem seu número próprio e único; 2) o mês, que é parte de uma sequência numérica cíclica, de modo que duas datas diferentes podem ter um mesmo número no mês; e 3) o dia, que se comporta de modo semelhante ao mês. 
 
-Além disso, os computadores sempre levam em consideração o horário. Para uma planilha, o dia 01/04/2015 às 12h00 é sempre considerado como distinto do dia 01/04/2015 às 12h05, enquanto para um ser humano essa diferença pode ou não ser relevante, dependendo daquilo que se pretenda com o cálculo. 
+Assim, para nós, salvo no que se refere ao ano, o fato desses números, numa data qualquer, serem maiores ou menores que os mesmos números em outra data não permite, por si, dizer qual a data posterior ou anterior. Precisamos sempre levar em conta, na comparação, os três números em conjunto. Assim, por exemplo, o dia `05/03/2015` é posterior ao dia `30/11/2014` não porque os números utilizados para representar o mês e o dia sejam maiores (porque nesse caso eles são menores na data posterior), mas apenas porque o ano é maior.
 
-Em matéria previdenciária, em geral, o horário é irrelevante e as duas "datas" do exemplo seriam provavelmente consideradas como idênticas para fins de cálculo de um benefício.
+A primeira dificuldade para os sistemas computacionais reside, portanto, em “traduzir” a notação humana de modo a que ela possa ser expressa em numeração única. 
 
-Por essas razões, os computadores costumam expressar as datas de dois modos:
+Além disso, quando lidamos com datas, quase sempre o horário é irrelevante para nós. Por exemplo, se estamos comparando duas DERs, não importa para nós o horário em que o requerimento adminstrativo foi apresentado. 
 
-1) como números sequenciais, quando são utilizadas num cálculo;
+Até mesmo outros componentes das datas podem ser irrelevantes em alguns casos, como o dia do mês, por exemplo, quando comparamos duas competências.
 
-2) como um texto compreensível para o ser humano, quando são mostradas ao usuário.
+Já os computadores nunca desconsideram nenhum dos elementos das datas e levam sempre em conta também o horário, até o último grau de precisão. Para um sistema computacional que chega à precisão de segundos, por exemplo, o requerimento formulado em `01/02/2015, às 17:01:01` será sempre posterior ao formulado em `01/02/2015, às 17:01:00`, ainda que para nós os segundos sejam irrelevantes.
 
-Nas planilhas do *Google Sheets*, cada data corresponde a um número decimal cuja parte inteira significa o número de dias transcorridos desde 30/12/1899 e a parte fracionária ao horário do dia. Por exemplo: o número `42370,92` equivale às 22h00 do dia 01/01/2016. 
+Todavia, os computadores são ferramentas utilizadas por seres humanos e precisam retornar para o usuário dados que possam ser por ele compreendidos e que lhe possam ser úteis. Por isso é bastante comum que nos sistemas computacionais as datas tenham sempre “duas faces”:
 
-Assim, quando o usuário digita numa célula a data `01/01/2016`, para o computador a informação é lida como o número `42370`.
+1) quando utilizadas num cálculo, elas são tratadas como números sequenciais;
 
-A situação se complica quando um complemento é integrado à planilha, porque no código executado nos complementos as datas e os horários são medidos de forma diferente.
+2) quando retornam o resultado ao usuário, elas são estruturadas de um modo mais complexo, que incorpora diversos dados diferentes, não apenas os já citados (ano, mês e dia), como também outros conceitos empregados no dia-a-dia para medição do tempo, como fuso horário, horário de verão, diferentes calendários, distinção entre horas da manhã e da tarde (“am”, “pm”) etc.
 
-Os complementos são escritos em Javascript. Nessa linguagem, os instantes são medidos em milissegundos transcorridos em relação ao início da "[Era Unix](https://pt.wikipedia.org/wiki/Era_Unix)".
+Nas planilhas do *Google Sheets*, quando as datas são utilizadas em um cálculo, elas são tratadas como um número decimal cuja parte inteira corresponde ao número de dias transcorridos desde 30/12/1899 e a parte fracionária ao horário do dia. 
 
-Por exemplo, o instante `2016-01-02T00:00:00.000Z`, equivalente às 22h00 do dia 01/01/2016, horário de verão brasileiro, corresponde, em Javascript, ao número `1451692800000`. O número seguinte, `1451692800001`, embora represente uma diferença de apenas um milésimo de segundo em relação ao anterior, é tratado como uma data completamente distinta. Para o computador, não importa se a diferença é de um ano, um dia ou um milésimo de segundo. Sendo diferentes os números, as datas são também consideradas diferentes.
+Todavia, quando se trata de visualizar o resultado, o *Google Sheets* permite que o usuário estabeleça vários formatos diferentes e contempla, ainda, ajustes de fuso horário e de horário de verão.
+
+Por exemplo, se digitamos o número `42370,92` numa célula e escolhemos exibi-lo como uma data, veremos que o referido número equivale a `01/01/2016 22:00:00`. Do mesmo modo, se digitamos numa célula a data `01/01/2016 22:00:00`, a planilha interpretará a informação como o número `42370,92`.
+
+Já os complementos adotam um outro sistema. Sendo escritos numa linguagem chamada de *Javascript* ou *ECMAScript*, eles seguem o padrão estabelecido para essa linguagem, expressando cada instante em número de milissegundos transcorridos a partir da "[Era Unix](https://pt.wikipedia.org/wiki/Era_Unix){:target="_blank"}.
+
+Por exemplo, o instante `2016-01-02T00:00:00.000Z`, equivalente às 22h00 do dia 01/01/2016, horário de verão brasileiro, corresponde, em *Javascript*, ao número `1451692800000`. E o número seguinte, `1451692800001`, embora represente uma diferença de apenas um milésimo de segundo em relação ao anterior, constitui, para o computador, uma data totalmente distinta.
+
+{% include note.html type="normal" text="Para o computador é irrelevante se a diferença entre duas datas é de um ano, um dia ou um milésimo de segundo. Sendo diferentes os números, as datas são também consideradas diferentes." %}
 
 ## Possíveis problemas
 
-Percebeu como isso pode gerar confusão e erro?
+Já percebeu como isso pode gerar confusão e erro?
 
 Se você estiver inserindo datas numa planilha sem atentar para o horário, poderá pensar que inseriu a mesma data em duas células diferentes, quando na verdade, para o computador, elas serão datas distintas.
 
-Um problema similar pode ocorrer se você estiver trabalhando numa planilha configurada para um determinado fuso horário e utilizar um complemento configurado para outro fuso horário.
+De modo similar, o seu cálculo deixará de ser confiável se você estiver trabalhando numa planilha configurada para um determinado fuso horário e utilizar um complemento configurado para outro fuso horário.
 
-> **Nota**: Lembre-se de que as planilhas do *Google Sheets* não estão "no Brasil", mas na "nuvem", isto é, em algum servidor do *Google*, provavelmente na California, mas possivelmente em qualquer lugar do mundo, até mesmo em vários lugares ao mesmo tempo...
+{% include note.html type="normal" text="Lembre-se de que as planilhas do <b>Google Sheets</b> não estão “no Brasil”, mas “na nuvem”. Isso quer dizer que elas estão armazenadas em algum servidor do <b>Google</b> em qualquer parte do mundo, provavelmente em vários lugares ao mesmo tempo..." %}
 
 Imagine que você esteja utilizando o complemento **Índices Previdenciários** e faça a consulta ao `SGS_TRD` no fuso horário de São Paulo, mas sua planilha esteja configurada para o fuso horário da Costa do Pacífico nos EUA.
 
@@ -58,9 +66,9 @@ Além disso, ainda que você ajuste a sua planilha para o fuso horário adequado
 
 ## Como prevenir-se
 
-Para evitar problemas desse tipo, os complementos e as planilhas de cálculo que você encontra na pasta "**Distribuição**" adotam um critério uniforme para a manipulação das datas: utilizam sempre o mesmo fuso horário, **_sem horário de verão_**. Como em *Google Sheets* essa opção só existe para o fuso horário de Greenwhich (GMT).
+Para evitar problemas desse tipo, os complementos e as planilhas de cálculo que você encontra na pasta "**Distribuição**" adotam um critério uniforme para a manipulação das datas: utilizam sempre o mesmo fuso horário, **_sem horário de verão_**. Como em *Google Sheets* essa opção só existe para o fuso horário de Greenwhich (GMT), esse é o fuso horário escolhido como padrão.
 
-> **Nota**: Essa regra não é absoluta. Quando a data não é utilizada para cálculo, mas apenas para registrar o horário em que o usuário efetuou alguma operação, procura-se utilizar, sempre que possível, o fuso horário local e retornar a data em formato de texto simples. Um exemplo: as funções do complemento **Índices Previdenciários** retornam sempre na terceira coluna os dados da consulta efetuada, apenas para registro da fonte das informações, não para cálculo. Como nesse caso o que importa é saber o horário em que o usuário consultou o SGS ou o SIDRA, utiliza-se o fuso horário local, em formato de texto simples.
+{% include note.html type="normal" text="Essa regra não é absoluta. Quando a data não é utilizada para cálculo, mas apenas para registrar o horário em que o usuário efetuou alguma operação, procura-se utilizar, sempre que possível, o fuso horário local e retornar a data em formato de texto simples. Um exemplo: as funções do complemento <b>Índices Previdenciários</b> retornam sempre na terceira coluna os dados da consulta efetuada, apenas para registro da fonte das informações, não para cálculo. Como nesse caso o que importa é saber o horário em que o usuário consultou o SGS ou o SIDRA, utiliza-se o fuso horário local, em formato de texto simples." %}
 
 Portanto, se você está utilizando apenas as planilhas de cálculo da pasta "**Distribuição**", não há com que se preocupar, porque elas já vêm configuradas corretamente, sem que você precise fazer nada.
 
