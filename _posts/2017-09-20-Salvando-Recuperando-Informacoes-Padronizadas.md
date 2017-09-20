@@ -1,7 +1,7 @@
 ---
 date: 2017-01-20
 title: Salvando e recuperando informações padronizadas
-video_id: 4lvHxGiE
+video_id: of-4lvHxGiE
 description: Como salvar e recuperar informações padronizadas
 categories:
   - planilha-tc
