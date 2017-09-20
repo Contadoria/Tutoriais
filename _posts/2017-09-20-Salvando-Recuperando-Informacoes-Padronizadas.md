@@ -14,7 +14,7 @@ set_order: 1
 
 O objetivo deste vídeo é demonstrar como salvar e recuperar informações padrão nas planilhas.
 
-##Salvando suas informações padronizadas
+## Salvando suas informações padronizadas
 
 1. Acesse a planilha salva no seu *Google Drive*.
 1. Acesse o menu `Complementos` e abra a opção `Cálculos Previdenciários`
@@ -24,7 +24,7 @@ O objetivo deste vídeo é demonstrar como salvar e recuperar informações padr
 1. Marque os campos que deseja salvar como padrão e clique em **OK**.
 1. Os dados serão salvos como o padrão do usuário.
 
-##Recuperando suas informações padronizadas
+## Recuperando suas informações padronizadas
 
 1. Acesse a planilha salva no seu *Google Drive*.
 1. Acesse o menu `Complementos` e abra a opção `Cálculos Previdenciários`
