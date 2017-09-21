@@ -1,0 +1,7 @@
+---
+---
+{% assign docs = site.posts | where: "type", "Document" | sort: "title" %}
+
+<h2>Documentos <span class="count">({{ docs | size }})</span></h2>
+
+{% include listings.html listings=docs %}
