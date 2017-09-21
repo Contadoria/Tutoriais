@@ -18,9 +18,9 @@ Siga estes passos:
 
 1. Acesse a planilha salva no seu *Google Drive*.
 1. Acesse o menu `Complementos > Cálculos Previdenciários > Abrir`
-1. Clique no ícone **Extrair dados de texto** ![Extrair dados]({{ site.baseurl }}{% link /images/Icone_Extrair_Dados.png %})
+1. Clique no ícone **Extrair dados de texto**: ![Extrair dados]({{ site.baseurl }}{% link /images/Icone_Extrair_Dados.png %})
 1. Selecione e copie as informações constantes da página **Dados Básicos** do **SISJEF**
-1. Cole as informações na área de transferência e clique no botão **Extrair** ![Botão Extrair]({{ site.baseurl }}{% link /images/Botao_Extrair_Dados.png %})
+1. Cole as informações na área de transferência e clique no botão **Extrair**: ![Botão Extrair]({{ site.baseurl }}{% link /images/Botao_Extrair_Dados.png %})
 1. Selecione a opção `Dados do Processo` e clique em `OK`
 
 Com isso, os dados foram transferidos para os campos específicos.
