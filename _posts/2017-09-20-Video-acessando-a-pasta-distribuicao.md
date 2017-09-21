@@ -1,8 +1,8 @@
 ---
 date: 2017-01-20
-title: Criando novas planilhas
+title: Acessando a pasta Distribuição
 video_id: vWiEfu6lGjI
-description: Como copiar uma planilha da pasta Distribuicao
+description: Como acessar a pasta Distribuição e copiar uma planilha
 categories:
   - planilha-tc
   - planilha-rmi
