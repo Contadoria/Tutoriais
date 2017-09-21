@@ -16,10 +16,10 @@ As abas com tarja azul correspondem à entrada de dados, os quais devem ser lan�
 ## Transferindo informações de uma planilha ContagemTC
 1. É possível transferir as informações de uma contagem de tempo apurada anteriormente.
 1. Abra a planilha ContagemTC, acesse o menu `Complementos > Cálculos Previdenciários > Abrir`.
-1. Clique no ícone **Área de Transferência**: ![Botão Área Transferencia]({{ site.baseurl }}{% link /images/Botao_Area_Transferencia.png %})
+1. Clique no ícone **Área de Transferência**: ![Ícone Área Transferencia]({{ site.baseurl }}{% link /images/Icone_Area_Transferencia.png %})
 1. Clique no botão **Copiar**: ![Botão Copiar Área Transferência]({{ site.baseurl }}{% link /images/Botao_Copiar_Area_Transferencia.png %})
 1. Retorne para a planilha de RMI, acesse o menu `Complementos > Cálculos Previdenciários > Abrir`
-1. Clique no ícone **Área de Transferência**: ![Botão Área Transferencia]({{ site.baseurl }}{% link /images/Botao_Area_Transferencia.png %})
+1. Clique no ícone **Área de Transferência**: ![Ícone Área Transferencia]({{ site.baseurl }}{% link /images/Icone_Area_Transferencia.png %})
 1. Clique no botão **Colar**: ![Botão Colar Área Transferência]({{ site.baseurl }}{% link /images/Botao_Colar_Area_Transferencia.png %})
 1. Os dados foram transferidos para os campos específicos.
 
