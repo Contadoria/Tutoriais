@@ -10,11 +10,11 @@ set: utilizando-as-planilhas
 set_order: 4
 ---
 
-A planilha CalculoAtrasados apura os valores da causa e da condenação, os dados para expedição de RPV e os honorários advocatícios a partir dos parâmetros do benefício e do processo e dos critérios de atualização fornecidos pelo usuário.
+A planilha `CalculoAtrasados` apura os valores da causa e da condenação, os dados para expedição de RPV e os honorários advocatícios a partir dos parâmetros do benefício e do processo e dos critérios de atualização fornecidos pelo usuário.
 
 Neste tutorial vamos dar instruções básicas sobre o uso da planilha.
 
-## Transferindo informações de uma planilha CalculoRMI
+## Transferindo informações de uma planilha de cálculo de RMI
 
 É possível transferir as informações de uma RMI apurada anteriormente.
 
