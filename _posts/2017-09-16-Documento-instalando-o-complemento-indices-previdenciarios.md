@@ -12,7 +12,7 @@ Neste tutorial mostraremos como instalar e utilizar o complemento.
 
 ## Como instalar
 
-Primeiro, acesse a página do complemento na *Chrome Web Store* por meio deste [link](https://chrome.google.com/webstore/detail/%C3%ADndices-previdenci%C3%A1rios/gjllgdjhcjmkpkpihigkighfegolinek?hl=pt-BR){:target="_blank"}.
+Primeiro, acesse a página do complemento na *Chrome Webstore* por meio deste [link](https://chrome.google.com/webstore/detail/%C3%ADndices-previdenci%C3%A1rios/gjllgdjhcjmkpkpihigkighfegolinek?hl=pt-BR){:target="_blank"}.
 
 Na porção superior direita da tela você verá um botão azul de instalação:
 
