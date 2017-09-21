@@ -1,8 +1,8 @@
 ---
 date: 2017-01-21
-title: Planilha CalculoRMI
+title: Visão geral
 video_id: UCA4nV-mhqk
-description: Utilizando a planilha CalculoRMI
+description: Visão geral sobre a planilha CalculoRMI
 categories:
   - planilha-rmi
 type: Video
