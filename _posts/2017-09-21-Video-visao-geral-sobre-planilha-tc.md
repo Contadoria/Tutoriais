@@ -1,8 +1,8 @@
 ---
 date: 2017-01-21
-title: Visão Geral
+title: TC - Visão Geral
 video_id: fzG-uiZr18c
-description: Visão geral sobre a planilha CalculoTC
+description: Visão geral sobre a planilha CalculoTC.
 categories:
   - planilha-tc
 type: Video
