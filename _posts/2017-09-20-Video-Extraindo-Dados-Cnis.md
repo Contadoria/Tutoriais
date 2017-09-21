@@ -8,8 +8,6 @@ categories:
   - planilha-rmi
   - planilha-atrasados
 type: Video
-set: primeiros-passos
-set_order: 3
 ---
 Nes tutorial nós mostraremos como extrair os dados do **Extrato Completo** do **CNIS** em pdf diretamente para uma planilha de cálculo.
 
