@@ -15,17 +15,16 @@ set: primeiros-passos
 set_order: 1
 ---
 
-O objetivo deste vídeo é demonstrar como acessar as planilhas de cálculo e criar uma cópia no seu *Google Drive* para utilização.
+O objetivo deste tutorial é mostrar como acessar as planilhas de cálculo na pasta **Distribuição** e criar uma cópia no seu *Google Drive* para utilização.
 
 Siga estes passos: 
 
 1. Acesse o link logo abaixo do vídeo para visualizar a pasta **Distribuição**.
 1. Você deve estar logado no Google Drive. Se ainda não estiver, clique em “fazer login” e digite seu nome de usuário e senha.
 1. Abra a planilha que deseja copiar, clicando nela duas vezes.
-1. Observe que na planilha ainda não estará permitida a edição.
+1. Observe que você ainda não poderá editar a planilha, que estará habilitada somente para visualização.
 1. Clique em `Arquivo > Fazer uma cópia...`.
-1. Escolha um nome para a planilha.
-1. Defina a pasta de destino no seu drive. É possível criar novas pastas para melhor organização.
-1. Após selecionar o destino, clique em "ok".
+1. Escolha um nome para a planilha e defina a pasta de destino no seu *Drive*. É possível criar novas pastas para melhor organização.
+1. Após selecionar o destino, clique em `OK`.
 
-Com isso foi gerada uma cópia da planilha e agora é possível elaborar os cálculos no seu *Drive*.
+Se tudo deu certo, uma cópia da planilha foi gerada no seu *Drive* e agora você pode editá-la livremente para elaborar os seus cálculos previdenciários.
