@@ -8,6 +8,7 @@ categories:
 description: Instruções sobre como obter uma planilha de cálculo "em branco" para iniciar um novo cálculo.
 type: Document
 set: primeiros-passos
+set_order: 2
 ---
 Neste tutorial mostraremos como você pode iniciar um novo cálculo do "zero", fazendo uma cópia, para o seu *Drive*, de qualquer uma das planilhas na pasta **Distribuição**.
 
