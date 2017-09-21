@@ -19,21 +19,21 @@ O objetivo deste vídeo é demonstrar como criar uma tabela de estatística e co
 
 ## Criando a tabela de estatística
 
-1. Acesse o link logo abaixo do vídeo para visualizar a pasta **Distribuição**.
-1. Você deve estar logado no Google Drive. Se ainda não estiver, clique em “fazer login” e digite seu nome de usuário e senha.
-1. Abra a planilha **Estatística Template**.
-1. Clique em `Arquivo > Fazer uma cópia...`.
+1. Acesse o link logo abaixo do vídeo para visualizar a pasta `Distribuição`
+1. Você deve estar logado no *Google Drive*. Se ainda não estiver, clique em `fazer login` e digite seu nome de usuário e senha.
+1. Abra a planilha `Estatística Template`
+1. Clique em `Arquivo > Fazer uma cópia...`
 1. Escolha um nome para a planilha.
 1. Defina a pasta de destino no seu drive. É possível criar novas pastas para melhor organização.
-1. Após selecionar o destino, clique em "ok".
+1. Após selecionar o destino, clique em `OK`
 1. Acesse o menu `Ferramentas > Editor de scripts...`
 1. Acesse o menu `File > Manage versions...` 
-1. Clique em `Save new version` e clique em **OK**.
+1. Clique em `Save new version` e clique em `OK`
 1. Acesse o menu `Publish > Deploy as web app...`
-1. Escolha a opção `Execute as me`.
+1. Escolha a opção `Execute as me`
 1. Escolha a opção `Anyone, even anonymous`
 1. Clique em `Review Permissions`
-1. Selecione sua conta do *Google Drive* e clique em **Permitir**.
+1. Selecione sua conta do *Google Drive* e clique em `Permitir`
 1. Copie o **link gerado** para distribuir a sua equipe.
 
 ## Registrando cálculos
@@ -41,7 +41,7 @@ O objetivo deste vídeo é demonstrar como criar uma tabela de estatística e co
 1. Abra a planilha com o cálculo efetuado
 1. Acesse o menu `Complementos > Cálculos Previdenciários > Abrir`
 1. Clique no ícone **Registro Estatístico**: ![Ícone Registro Estatístico]({{ site.baseurl }}{% link /images/Icone_Registro_Estatistico.png %})
-1. Clique no botão **Novo**.
+1. Clique no botão **Novo**
 1. Cole o link gerado pela planilha de estatística criada no campo **Insira o url do serviço**
 1. Clique em **Salvar**
 1. Para registrar o cálculo, clique em **Enviar**
