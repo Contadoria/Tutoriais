@@ -5,7 +5,7 @@ categories:
   - indices-previdenciarios
   - calculos-previdenciarios
   - desenvolvimento-de-planilhas
-description: Este tutorial explica por que você pode ter problemas com as datas em Google Sheets e o que fazer. para prevenir-se
+description: Por que você pode ter problemas com as datas em Google Sheets e o que fazer para prevenir-se.
 type: Document
 ---
 Neste tutorial explicaremos como o *Google Sheets* interpreta as datas inseridas nas planilhas e nos complementos, como e por que os cálculos com datas podem dar errado e o que se pode fazer para evitar que tais erros aconteçam.
