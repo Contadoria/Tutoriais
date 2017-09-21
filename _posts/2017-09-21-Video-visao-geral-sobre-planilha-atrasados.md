@@ -1,8 +1,8 @@
 ---
 date: 2017-01-21
-title: Visão geral sobre a planilha CalculoAtrasados
+title: Visão geral
 video_id: DZ1vVOwCSnE
-description: Descrição das abas da planilha CalculoAtrasados e instruções sobre como resgatar os dados de uma planilha de cálculo de RMI.
+description: Visão geral sobre a planilha CalculoAtrasados.
 categories:
   - planilha-atrasados
 type: Video
