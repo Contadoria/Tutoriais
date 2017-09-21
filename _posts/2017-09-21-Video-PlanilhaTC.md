@@ -10,13 +10,13 @@ set: primeiros-passos
 set_order: 3
 ---
 
-O objetivo deste vídeo é demonstrar algumas particularidads da planilha **ContagemTC**.
+O objetivo deste vídeo é demonstrar algumas particularidades da planilha **ContagemTC**.
 
 1. As abas com tarja azul correspondem à entrada de dados, os quais devem ser lançados nos campos azuis.
-1. Na aba **Configurar Contagem**, o campo **Reafirmação da DER** pode ser utilizado para inserir 
+1. Na aba `ConfigurarContagem`, o campo `Reafirmação da DER` pode ser utilizado para inserir 
 mais de uma data possível. Exemplo: contagem até a citação.
-1. Na aba **TCDiscriminado**, podemos definir a classificação do período como, por exemplo, tempo especial. No campo **Modificador**, podemos alterar o fator de conversão apurado.
-1. Na aba **TCADicionado**, podemos incluir o tempo líquido de períodos como, por exemplo, certidões expedidas 
+1. Na aba `TCDiscriminado`, podemos definir a classificação do período como, por exemplo, tempo especial. No campo **Modificador**, podemos alterar o fator de conversão apurado.
+1. Na aba `TCAdicionado`, podemos incluir o tempo líquido de períodos como, por exemplo, certidões expedidas 
 por órgãos públicos.
-1. Na aba **Modificadores**, podemos selecionar alterações referidas à carência.
-1. O resultado da contagem de tempo encontra-se na aba verde **Demonstrativo**.
+1. Na aba `Modificadores`, podemos selecionar alterações referentes à carência.
+1. O resultado da contagem de tempo encontra-se na aba verde `Demonstrativo`
