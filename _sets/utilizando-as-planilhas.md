@@ -1,4 +1,4 @@
 ---
 title: Utilizando as Planilhas
-description: Esta série irá dar a você noções básicas sobre o uso das planilhas de cálculo.
+description: Os tutoriais desta série explicam as noções básicas sobre o uso das planilhas de cálculo.
 ---

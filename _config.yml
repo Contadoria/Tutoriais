@@ -34,7 +34,7 @@ defaults:
       layout: "post"
   -
     scope:
-      type: "sets"
+      type: sets
     values:
       _hide_content: true
   -
