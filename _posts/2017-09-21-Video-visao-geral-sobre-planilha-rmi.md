@@ -6,7 +6,7 @@ description: Utilizando a planilha CalculoRMI
 categories:
   - planilha-rmi
 type: Video
-set: primeiros-passos
+set: utilizando-as-planilhas
 set_order: 3
 ---
 
