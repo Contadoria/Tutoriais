@@ -76,4 +76,4 @@ Pode ser, no entanto, que você queira utilizar algum complemento em outras plan
 
 Nesse caso, para que os complementos se comportem na forma esperada, você deve ajustar manualmente as configurações de fuso horário da planilha, no menu `Arquivo > Configurações de planilha... > Fuso horário` e escolher `(GMT+00:00) GMT (sem horário de verão)`, conforme mostrado abaixo.
 
-![Screenshot]({{ site.baseurl }}{% link /images/Indices_Alteracao_Fuso.png %})
+{% include image.html url="/images/Indices_Alteracao_Fuso.png" description="Tela da configuração do fuso horário" %}
