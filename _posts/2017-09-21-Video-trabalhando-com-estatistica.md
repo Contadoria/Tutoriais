@@ -7,7 +7,7 @@ categories:
   - planilha-tc
   - planilha-rmi
   - planilha-atrasados
-  - calculos-previdenciários
+  - calculos-previdenciarios
 resources:
   - name: "Link para a pasta Distribuição"
     link: https://drive.google.com/drive/folders/0B2B1B7RRK5HmS0I2clRTTTJiMXc
