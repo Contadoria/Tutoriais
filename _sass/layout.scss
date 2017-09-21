@@ -55,6 +55,21 @@ dt, h2 {
 */
 
 .image_wrapper {
+	width: 100%;
+	
+	img {
+		display: block;
+		margin: 20px;
+		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+		transition: box-shadow 0.3s ease-in;
+
+		&:hover {
+			box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+		}
+	}
+}
+
+.screenshot_wrapper {
 	padding: 20px 0 0;
 	margin-bottom: 20px;
     border-radius: 3px;

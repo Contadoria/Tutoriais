@@ -14,12 +14,12 @@ set_order: 6
 
 Neste tutorial você verá como gerar um PDF do demonstrativo da planilha de cálculo e recuperar posteriormente a planilha originária a partir do link oculto.
 
-## Gerando o pdf
+## Gerando o PDF
 
 1. Acesse a planilha salva no seu *Drive*.
 1. Certifique-se de que a aba `Demonstrativo` esteja selecionada e o seu conteúdo visível na tela.
 1. Selecione `Arquivo > Fazer download como > Documento PDF (.pdf)`.
-1. Clique em **Exportar**.
+1. Clique em `Exportar`.
 1. Observe que o documento PDF foi gravado na pasta **Downloads**, podendo ser juntado aos autos do processo.
 
 ## Recuperando a planilha a partir do link oculto

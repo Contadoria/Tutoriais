@@ -21,7 +21,8 @@ Siga estes passos:
 
 1. Acesse o link logo abaixo do vídeo para visualizar a página do complemento na *Chrome Webstore*.
 1. Você deve estar logado no *Google Drive*. Se ainda não estiver, clique em **fazer login** e digite seu nome de usuário e senha.
-1. Na porção superior direita da tela você verá um botão azul de instalação: ![Botão instalar]({{ site.baseurl }}{% link /images/Botao_instalar.png %}).
+1. Na porção superior direita da tela você verá um botão azul de instalação:
+{% include image.html url="/images/Botao_instalar.png" description="Botão Instalar" %}
 1. Clique em `+`. Uma planilha será aberta para confirmação do procedimento.
 1. Clique no botão `Continuar`.
 1. Selecione sua conta do *Google Drive* e clique em `Permitir`.

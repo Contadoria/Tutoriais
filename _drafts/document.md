@@ -19,7 +19,11 @@ Para cofigurar um link a ser aberto em uma nova janela do browser, você pode in
 [texto](url){:target="_blank"}.
 
 Para incluir screenshots, temos uma template pré-formatado. Utilize:
-{% include image.html url="/images/[nome do arquivo].png" description="[insira aqui uma descrição breve]" %}
+{% include screenshot.html url="/images/[nome do arquivo].png" description="[insira aqui uma descrição breve]" %}
+
+Também temos um template para inclusão de imagens em geral (ícones, partes da tela, etc):
+
+{% include image.html url="...." description="..." %}
 
 Para inserir notas, você pode usar o markdown comum, iniciando com ">". Todavia, para sofisticar um pouco a formatação e melhorar a comunicação visual, estão disponíveis quatro formatos diferentes de notas: 'tip' (dica), 'warning' (atenção), 'danger' (perigo) e 'normal'. 
 

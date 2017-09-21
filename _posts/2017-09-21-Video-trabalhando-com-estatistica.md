@@ -24,8 +24,7 @@ Neste tutorial nós explicamos como configurar um novo serviço estatístico e c
 
 ## Criando um serviço
 
-1. Acesse o link logo abaixo do vídeo para visualizar a pasta `Distribuição`.
-1. Você deve estar logado no *Google Drive*. Se ainda não estiver, clique em `fazer login` e digite seu nome de usuário e senha.
+1. Acesse o link logo abaixo do vídeo para visualizar a pasta **Distribuição**. Você deve estar logado no *Google Drive*.
 1. Abra a planilha `Estatística Template`.
 1. Selecione `Arquivo > Fazer uma cópia...`
 1. Escolha um nome para a planilha e defina a pasta de destino no seu drive. É possível criar novas pastas para melhor organização.
@@ -33,7 +32,7 @@ Neste tutorial nós explicamos como configurar um novo serviço estatístico e c
 1. Selecione `Ferramentas > Editor de scripts...` e, em seguida, `File > Manage versions...`. 
 1. Clique em `Save new version` e em `OK`.
 1. No menu `Publish > Deploy as web app...` escolha as opções `Execute as me` e `Anyone, even anonymous`. Esta parte é muito importante.
-1. Em seguida, cliquem `Deploy`. 
+1. Em seguida, clique em `Deploy`. 
 1. Aparecerá para você uma tela de autorização. Clique em `Review Permissions`.
 1. Selecione sua conta do *Google Drive* e clique em `Permitir`.
 1. Copie o *url* fornecido e distribua-o a sua equipe.
@@ -44,7 +43,8 @@ Neste tutorial nós explicamos como configurar um novo serviço estatístico e c
 
 1. Abra a planilha de cálculo.
 1. Selecione `Complementos > Cálculos Previdenciários > Abrir`
-1. Clique no ícone da ferramenta de registro estatístico (![Ícone Registro Estatístico]({{ site.baseurl }}{% link /images/Icone_Registro_Estatistico.png %})).
+1. Clique a aba da ferramenta de registro estatístico:
+{% include image.html url="/images/Icone_Registro_Estatistico.png" description="Ícone Registro Estatístico" %}
 1. Clique no botão `Novo`
 1. Cole o *url* do serviço no campo `Insira o url do serviço`.
 1. Clique no botão `Salvar`.
@@ -56,8 +56,9 @@ Se tudo deu certo, você agora verá os dados do serviço registrado.
 ## Registrando um cálculo
 
 1. Abra a planilha de cálculo. **Só registre o cálculo se já o tiver concluído**.
-1. Selecione `Complementos > Cálculos Previdenciários > Abrir`
-1. Clique no ícone da ferramenta de registro estatístico (![Ícone Registro Estatístico]({{ site.baseurl }}{% link /images/Icone_Registro_Estatistico.png %})).
+1. Selecione `Complementos > Cálculos Previdenciários > Abrir`.
+1. Clique a aba da ferramenta de registro estatístico:
+{% include image.html url="/images/Icone_Registro_Estatistico.png" description="Ícone Registro Estatístico" %}
 1. Certifique-se de que existe um serviço de estatística já configurado e *online*.
 1. Clique no botão `Enviar`.
 1. Será aberta uma tela de confirmação dos dados do cálculo. Se tudo estiver correto, confirme o envio.

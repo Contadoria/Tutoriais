@@ -27,8 +27,10 @@ Neste tutorial mostramos como utilizar essa ferramenta para salvar e recuperar i
 1. Acesse a planilha salva no seu *Google Drive*.
 1. Selecione `Complementos > Cálculos Previdenciários > Abrir`.
 1. Digite as informações na planilha que deverão ser salvas como padrão nos campos apropriados (*Juízo*, *Seção* etc).
-1. Clique no ícone da ferramenta (![Padrões do usuário]({{ site.baseurl }}{% link /images/Icone_Padroes_Usuario.png %})).
-1. Clique no botão `Salvar` (![Botão Salvar]({{ site.baseurl }}{% link /images/Botao_Salvar_Padroes.png %})).
+1. Clique na aba da ferramenta:
+{% include image.html url="/images/Icone_Padroes_Usuario.png" description="Ícone Padrões Usuário" %}
+1. Clique no botão **Salvar**:
+{% include image.html url="/images/Botao_Salvar_Padroes.png" description="Botão Salvar" %}
 1. Marque os campos que deseja salvar como padrão e clique em `OK`.
 
 Esses dados serão salvos apenas para as suas planilhas. Cada usuário tem seus próprios padrões.
@@ -37,8 +39,10 @@ Esses dados serão salvos apenas para as suas planilhas. Cada usuário tem seus 
 
 1. Acesse a planilha salva no seu *Google Drive*.
 1. Selecione `Complementos > Cálculos Previdenciários > Abrir`.
-1. Clique no ícone da ferramenta (![Padrões do usuário]({{ site.baseurl }}{% link /images/Icone_Padroes_Usuario.png %})).
-1. Clique no botão `Baixar` (![Botão Baixar]({{ site.baseurl }}{% link /images/Botao_Baixar_Padroes.png %})).
+1. Clique na aba da ferramenta:
+{% include image.html url="/images/Icone_Padroes_Usuario.png" description="Ícone Padrões Usuário" %}
+1. Clique no botão **Baixar**:
+{% include image.html url="/images/Botao_Baixar_Padroes.png" description="Botão Baixar" %}
 1. Marque os campos que deseja baixar para a planilha e clique em `OK`.
 
 Os dados serão transferidos diretamente para os campos específicos.

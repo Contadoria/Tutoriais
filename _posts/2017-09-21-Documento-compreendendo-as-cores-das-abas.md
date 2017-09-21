@@ -15,9 +15,9 @@ As planilhas de cálculo utilizam um código de cores uniforme para suas abas e 
 
 Neste tutorial vamos explicar o significado das cores e explicar como elas ajudam a utilizar corretamene as planilhas.
 
-## Cor azul
+## <span style="color: blue">Cor azul</span>
 
-As abas e campos azuis indicam **entrada de dados**.
+As abas e campos azuis indicam <span style="color: blue">**entrada de dados**</span>.
 
 É nesses campos que o usuário pode inserir os dados do seu cálculo específico ou selecionar as opções disponíveis.
 
@@ -31,17 +31,17 @@ Não altere esses campos mais escuros. O correto é entrar com os dados apenas n
 
 {% include note.html type="normal" text="Quando você inserir algum dado num modificador, irá notar que o local ficará destacado em amarelo. Isso é normal e serve apenas para destacar que você alterou manualmente o resultado de um valor pré-calculado." %}
 
-## Cor laranja 
+## <span style="color: orange">Cor laranja</span>
 
-As abas e campos laranja indicam **processamento**.
+As abas e campos laranja indicam <span style="color: orange">**processamento**</span>.
 
 Você nunca deve alterar os campos dessa cor, porque são eles que contêm as fórmulas e é neles que se operam os cálculos.
 
 Todavia, como já dito anteriormente, você irá encontrar em algumas abas laranja campos em azul. Esses campos azuis podem ser alterados normalmente. Foram feitos justamente para isso.
 
-## Cor verde 
+## <span style="color: lightgreen">Cor verde</span>
 
-As abas e campos verdes indicam **resultado**.
+As abas e campos verdes indicam <span style="color: lightgreen">**processamento**</span>.
 
 É neles que são processados e gerados os demonstrativos que poderão ser convertidos em formato PDF para juntada aos autos.
 
@@ -53,10 +53,10 @@ As três cores acima mencionadas são as únicas relevantes para que você saiba
 
 Todavia, outras cores são também empregadas, especialmente em abas ocultas ou campos somente de leitura:
 
-a) **cinza**: os campos dessa cor indicam valores expostos os usuário somente para leitura, para dar conhecimento de um resultado parcial, em geral para que o usuário possa decidir se deve ou não usar um modificador para alterar esse dado;
+a) <span style="color: lightgrey">**cinza**</span>: os campos dessa cor indicam valores expostos os usuário somente para leitura, para dar conhecimento de um resultado parcial, em geral para que o usuário possa decidir se deve ou não usar um modificador para alterar esse dado;
 
 b) **preto**: as abas e campos em preto indicam dados de índices e tabelas gerados automaticamente para uso nos cálculos ou registro de ocorrências;
 
-c) **vermelho**: as abas em vermelho e todos os campos nelas existentes (de qualquer cor) contêm dados utilizados para o desenvolvimento das planilhas.
+c) <span style="color: red">**vermelho**</span>: as abas em vermelho e todos os campos nelas existentes (de qualquer cor) contêm dados utilizados para o desenvolvimento das planilhas.
 
-Você nunca deve alterar manualmente qualquer das informações contidas nas abas e campos cinza, pretos e vermelhos.
+Você nunca deve alterar manualmente qualquer das informações contidas nas abas e campos com essas cores.

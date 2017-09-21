@@ -22,7 +22,7 @@ Clique [aqui](https://drive.google.com/drive/folders/0B2B1B7RRK5HmS0I2clRTTTJiMX
 
 Ao acessar a pasta **Distribuição**, Você deverá encontrar algo parecido com a seguinte imagem:
 
-{% include image.html url="/images/Planilhas_Tela_Distribuicao.png" description="Pasta Distribuição." %}
+{% include screenshot.html url="/images/Planilhas_Tela_Distribuicao.png" description="Pasta Distribuição." %}
 
 {% include note.html type="normal" text="Você deve estar logado no <b>Google Drive</b>. Se ainda não estiver, clique em “<b>fazer login</b>” e digite seu nome de usuário e senha." %}
 
@@ -32,19 +32,19 @@ Abra a planilha que deseja copiar, clicando nela duas vezes.
 
 A planilha será aberta no seu browser. Note, contudo, que você não terá permissão para editá-la:
 
-{% include image.html url="/images/Planilhas_Tela_Planilha_01.png" description="Sem permissão para editar." %}
+{% include screenshot.html url="/images/Planilhas_Tela_Planilha_01.png" description="Sem permissão para editar." %}
 
 Para começar a usar a planilha, você deve primeiro copiá-la para o seu *Drive*.
 
 Acesse o menu `Arquivo > Fazer uma cópia`, conforme mostrado abaixo:
 
-{% include image.html url="/images/Planilhas_Tela_Planilha_02.png" description="Fazendo uma cópia." %}
+{% include screenshot.html url="/images/Planilhas_Tela_Planilha_02.png" description="Fazendo uma cópia." %}
 
 Agora você poderá ecolher um nome para a sua planilha e a pasta de destino no seu drive.
 
 {% include note.html type="tip" text="Você pode criar no seu <b>Drive</b> quantas pastas quiser para melhor organizar as planilhas, exatamente como faz no seu computador ou na rede institucional." %}
 
-{% include image.html url="/images/Planilhas_Tela_Planilha_06.png" description="Confirmando." %}
+{% include screenshot.html url="/images/Planilhas_Tela_Planilha_06.png" description="Confirmando." %}
 
 Quando estiver tudo selecionado, clique em `OK`.
 
@@ -52,4 +52,4 @@ Quando estiver tudo selecionado, clique em `OK`.
 
 A sua cópia já está criada e armazenada no *Drive*. Agora você pode utilizá-la para fazer o seu novo cálculo.
 
-{% include image.html url="/images/Planilhas_Tela_Planilha_07.png" description="Tudo pronto." %}
+{% include screenshot.html url="/images/Planilhas_Tela_Planilha_07.png" description="Tudo pronto." %}

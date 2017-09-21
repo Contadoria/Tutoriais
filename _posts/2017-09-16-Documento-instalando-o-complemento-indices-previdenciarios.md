@@ -16,15 +16,15 @@ Primeiro, acesse a página do complemento na *Chrome Webstore* por meio deste [l
 
 Na porção superior direita da tela você verá um botão azul de instalação:
 
-![Botão instalar]({{ site.baseurl }}{% link /images/Botao_instalar.png %})
+{% include image.html url="/images/Botao_instalar.png" description="Botão Instalar" %}
 
-Clique em "+". O *Google* abrirá automaticamente uma nova planilha, sem nome, para finalizar a instalação. Pode ser também que o *Google* lhe dê instruções adicionais. Basta segui-las.
+Clique em `+`. O *Google* abrirá automaticamente uma nova planilha, sem nome, para finalizar a instalação. Pode ser também que o *Google* lhe dê instruções adicionais. Basta segui-las.
 
 ## Autorizar e ativar
 
 Uma vez instalado o complemento, um novo item aparecerá no menu "**Complementos**" de sua planilha, conforme a figura abaixo.
 
-{% include image.html url="/images/Indices_Menu_Complemento.png" description="Menu Complementos." %}
+{% include screenshot.html url="/images/Indices_Menu_Complemento.png" description="Menu Complementos." %}
 
 Selecione a opção "**Usar nesta planilha**" para ativar as funções customizadas.
 
@@ -34,7 +34,7 @@ Na primeira vez em que você utilizar o complemento, o *Google* lhe mostrará um
 
 Uma vez autorizado e ativado o complemento, as funções customizadas estarão disponíveis normalmente em sua planilha. Elas aparecerão, inclusive, no *autocomplete*.
 
-{% include image.html url="/images/Indices_Autocomplete.png" description="Autocomplete." %}
+{% include screenshot.html url="/images/Indices_Autocomplete.png" description="Autocomplete." %}
 
 {% include note.html type="tip" text="Se você não estiver encontrando as funções no <b>autocomplete</b>, pode ser que não as tenha ainda habilitado na planilha. Nesse caso, selecione novamente a opção <b>Usar nesta planilha</b> no menu <b>Complementos</b> e elas deverão aparecer para você." %}
 
@@ -66,6 +66,6 @@ d) `SGS_SELIC_MENSAL(DATE(2016;1;1); DATE(2016;4;1))`: igual ao item "c".
 
 O resultado da consulta é apresentado em três colunas, cada qual com a seguinte informação: 1) data do índice, 2) valor do índice e 3) texto com os dados da fonte. Veja abaixo:
 
-{% include image.html url="/images/Indices_Dados_Baixados.png" description="Dados baixados." %}
+{% include screenshot.html url="/images/Indices_Dados_Baixados.png" description="Dados baixados." %}
 
 Se a consulta não retornar valores, você verá na célula o erro `#REF`.

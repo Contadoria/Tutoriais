@@ -21,9 +21,12 @@ Neste tutorial vamos dar instruções básicas sobre o uso da planilha.
 Para tanto, siga as instruções:
 
 1. Abra a planilha de cálculo da RMI e selecione `Complementos > Cálculos Previdenciários > Abrir`.
-1. Clique no ícone da ferramenta da área de transferência (![Ícone Área Transferencia]({{ site.baseurl }}{% link /images/Icone_Area_Transferencia.png %})).
-1. Clique no botão `Copiar` (![Botão Copiar Área Transferência]({{ site.baseurl }}{% link /images/Botao_Copiar_Area_Transferencia.png %})).
-1. Retorne para a planilha de cálculo de atrasados e clique no botão `Colar` (![Botão Colar Área Transferência]({{ site.baseurl }}{% link /images/Botao_Colar_Area_Transferencia.png %})).
+1. Clique na aba da ferramenta da área de transferência:
+{% include image.html url="/images/Icone_Area_Transferencia.png" description="Ícone Área de Transferência" %}
+1. Clique no botão **Copiar**:
+{% include image.html url="/images/Botao_Copiar_Area_Transferencia.png" description="Botão Copiar" %}
+1. Retorne para a planilha de cálculo de atrasados e clique no botão **Colar**:
+{% include image.html url="/images/Botao_Colar_Area_Transferencia.png" description="Botão Colar" %}
 
 Se tudo deu certo, os dados foram transferidos para os campos específicos.
 
