@@ -2,7 +2,7 @@
 date: 2017-01-20
 title: Extraindo dados do SISJEF
 video_id: 5GODN4Cyv-0
-description: Como extrair dados do SisJEF diretamente para a planilha de cálculo.
+description: Como extrair dados da tela Dados Básicos do SisJEF diretamente para uma planilha de cálculo.
 categories:
   - planilha-tc
   - planilha-rmi
@@ -10,7 +10,7 @@ categories:
 type: Video
 ---
 
-Neste tutorial mostramos como extrair dados básicos do processo no **SisJEF** diretamente para uma planilha de cálculo.
+Neste tutorial mostramos como extrair dados básicos do processo constantes da tela **Dados Básicos** do **SisJEF** diretamente para uma planilha de cálculo.
 
 Siga estes passos:
 
@@ -23,4 +23,4 @@ Siga estes passos:
 1. Clique no botão **Extrair** (![Botão Extrair]({{ site.baseurl }}{% link /images/Botao_Extrair_Dados.png %})).
 1. Selecione a opção `Dados do Processo` e clique em `OK`
 
-Se tudo deu certo, os dados terão sido transferidos para os campos específicos na planilha.
+Os dados serão transferidos para os campos específicos na planilha.
