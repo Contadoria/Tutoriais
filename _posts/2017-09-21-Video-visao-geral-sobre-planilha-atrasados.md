@@ -6,6 +6,8 @@ description: Descrição das abas da planilha CalculoAtrasados e instruções so
 categories:
   - planilha-atrasados
 type: Video
+set: utilizando-as-planilhas
+set_order: 4
 ---
 
 A planilha CalculoAtrasados apura os valores da causa e da condenação, os dados para expedição de RPV e os honorários advocatícios a partir dos parâmetros do benefício e do processo e dos critérios de atualização fornecidos pelo usuário.
