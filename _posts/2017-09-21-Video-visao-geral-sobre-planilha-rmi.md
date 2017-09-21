@@ -10,21 +10,26 @@ set: utilizando-as-planilhas
 set_order: 3
 ---
 
-O objetivo deste vídeo é demonstrar algumas particularidades da planilha `CalculoRMI`.
-As abas com tarja azul correspondem à entrada de dados, os quais devem ser lançados nos campos azuis.
+A planilha `CalculoRMI` apura a renda mensal de um benefício previdenciário, a partir dos parâmetros fornecidos pelo usuário.
 
-## Transferindo informações de uma planilha ContagemTC
-1. É possível transferir as informações de uma contagem de tempo apurada anteriormente.
-1. Abra a planilha ContagemTC, acesse o menu `Complementos > Cálculos Previdenciários > Abrir`.
-1. Clique no ícone **Área de Transferência**: ![Ícone Área Transferencia]({{ site.baseurl }}{% link /images/Icone_Area_Transferencia.png %})
-1. Clique no botão **Copiar**: ![Botão Copiar Área Transferência]({{ site.baseurl }}{% link /images/Botao_Copiar_Area_Transferencia.png %})
-1. Retorne para a planilha de RMI, acesse o menu `Complementos > Cálculos Previdenciários > Abrir`
-1. Clique no ícone **Área de Transferência**: ![Ícone Área Transferencia]({{ site.baseurl }}{% link /images/Icone_Area_Transferencia.png %})
-1. Clique no botão **Colar**: ![Botão Colar Área Transferência]({{ site.baseurl }}{% link /images/Botao_Colar_Area_Transferencia.png %})
-1. Os dados foram transferidos para os campos específicos.
+Neste tutorial vamos dar instruções básicas sobre o uso da planilha.
 
-## Aba Modificadores2
+## Transferindo informações de uma planilha de cálculo de tempo de contribuição
 
-1. Na aba `Modificadores2`, podemos incluir ou alterar valores relativos aos salários de contribuição.
-1. O resultado do cálculo encontra-se na aba verde `Demonstrativo`
+É possível transferir as informações da contagem de tempo efetuada em outra planilha.
 
+Para tanto, siga as instruções:
+
+1. Abra a planilha de ccontagem de tempo de contribuição e selecione `Complementos > Cálculos Previdenciários > Abrir`.
+1. Clique no ícone da ferramenta da área de transferência (![Ícone Área Transferencia]({{ site.baseurl }}{% link /images/Icone_Area_Transferencia.png %})).
+1. Clique no botão `Copiar` (![Botão Copiar Área Transferência]({{ site.baseurl }}{% link /images/Botao_Copiar_Area_Transferencia.png %})).
+1. Retorne para a planilha de cálculo da RMI e clique no botão `Colar` (![Botão Colar Área Transferência]({{ site.baseurl }}{% link /images/Botao_Colar_Area_Transferencia.png %})).
+
+Se tudo deu certo, os dados foram transferidos para os campos específicos.
+
+## Usando a planilha
+
+Roteiro simplificado para calcular a RMI:
+
+1. Na aba `Modificadores2`, inclua ou altere os valores relativos aos salários de contribuição.
+1. O resultado do cálculo encontra-se na aba verde `Demonstrativo`.
