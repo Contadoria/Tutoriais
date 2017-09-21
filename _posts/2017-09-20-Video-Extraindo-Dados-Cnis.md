@@ -21,6 +21,7 @@ Siga estes passos:
 1. Clique no ícone `Extrair dados de texto`: ![Extrair dados]({{ site.baseurl }}{% link /images/Icone_Extrair_Dados.png %})
 1. Selecione e copie as informações constantes do **Extrato Completo** do **CNIS**.
 1. Verifique se a opção `Habilitar rolagem` está marcada no menu `Visualizar > Exibição da página`
+{% include note.html type="tip" text="Você pode clicar no botão <img src="https://contadoria.github.io/Tutoriais/images/Botao_Habilitar_Rolagem.png"> para habilitar rolagem." %}
 1. Cole as informações na *área de transferência* e clique no botão `Extrair`: ![Botão Extrair]({{ site.baseurl }}{% link /images/Botao_Extrair_Dados.png %})
 1. Selecione a opção desejada conforme a planilha e clique em `OK`
 
