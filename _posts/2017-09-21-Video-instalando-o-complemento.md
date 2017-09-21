@@ -13,11 +13,9 @@ set: primeiros-passos
 set_order: 3
 ---
 
-Neste tutorial você verá como instalar o complemento **Cálculos Previdenciários**.
+O complemento **Cálculos Previdenciários** disponibiliza nas planilhas *Google Sheets* ferramentas que facilitam a elaboração de cálculos previdenciários.
 
-Complementos são ferramentas que adicionam funcionalidades ao *Google Sheets*. Normalmente, estão disponíveis na *Chrome Webstore*, que você pode visitar a partir do menu `Complementos` da sua planilha.
-
-O complemento **Cálculos Previdenciários** não está listado publicamente na loja. Somente pode ser acessado pelo link.
+Neste tutorial mostraremos como instalá-lo. As instruções sobre como utilizá-lo você encontrará distribuídas em outros tutoriais.
 
 Siga estes passos: 
 
