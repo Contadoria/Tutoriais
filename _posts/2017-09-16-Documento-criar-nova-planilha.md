@@ -5,7 +5,7 @@ categories:
   - planilha-tc
   - planilha-rmi
   - planilha-atrasados
-description: Este tutorial explica como obter uma planilha de cálculo "em branco" para iniciar um novo cálculo.
+description: Instruções sobre como obter uma planilha de cálculo "em branco" para iniciar um novo cálculo.
 type: Document
 set: primeiros-passos
 ---
