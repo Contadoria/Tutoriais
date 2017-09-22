@@ -51,7 +51,7 @@ Neste tutorial nós explicamos como configurar um novo serviço estatístico e c
 
 Se tudo deu certo, você agora verá os dados do serviço registrado.
 
-{% include note.html type="normal" text="O url do serviço pode ser salvo como informação padrão do usuário. Se você fizer isso, poderá utilizar o mesmo url em todas as suas planilhas, sem precisa registrar o serviço toda vez que fizer um novo cálculo." %}
+{% include note.html type="normal" text="O url do serviço pode ser salvo como informação padrão do usuário. Se você fizer isso, poderá utilizar o mesmo url em todas as suas planilhas, sem precisar registrar o serviço toda vez que fizer um novo cálculo." %}
 
 ## Registrando um cálculo
 
