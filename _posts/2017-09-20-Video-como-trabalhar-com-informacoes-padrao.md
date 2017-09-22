@@ -14,7 +14,7 @@ set_order: 4
 
 As informações padrão são dados que nunca ou quase nunca se alteram e que você precisa incluir em todas as suas planilhas de cálculo, como, por exemplo, a Seção e Subseção Judiciária, o url do serviço de estatística, algumas preferências, como critérios de atualização monetária etc.
 
-Para evitar que você tenha que entrar com esses dados novamente sempre que precisa criar uma nova planilha de cálculo, o complemento **Cálculos Previdenciários** traz uma ferramenta que salva essas informações para você e depois as preenche automaticamente na planilha sempre que precisar. 
+Para evitar que você tenha que entrar com esses dados novamente sempre que precisar criar uma nova planilha de cálculo, o complemento **Cálculos Previdenciários** traz uma ferramenta que salva essas informações para você e depois as preenche automaticamente na planilha sempre que precisar. 
 
 Cada usuário tem suas próprias informações padrão. Assim, cada um pode decidir livremente o que salvar e poderá adaptar as planilhas a sua própria realidade e necessidades. 
 
