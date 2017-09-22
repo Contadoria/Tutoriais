@@ -1,7 +1,7 @@
 ---
 date: 2017-01-21
 title: Trabalhando com estatística
-video_id: yvp_VfDqmAg
+video_id: OHU7Wwu14v0
 description: Como criar um serviço de estatística e registrar cálculos nesse serviço.
 categories:
   - planilha-tc
