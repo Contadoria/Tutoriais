@@ -25,7 +25,7 @@ Neste tutorial você verá como gerar um PDF do demonstrativo da planilha de cá
 ## Recuperando a planilha a partir do link oculto
 
 1. Para recuperar um cálculo já feito e salvo em PDF, abra o arquivo PDF do demonstrativo.
-1. Observe que há um link oculto no canto superior direito ou no canto superior esquerdo do documento.
+1. Observe que há um **link oculto** no canto superior direito ou no canto superior esquerdo do documento.
 1. Esse é o link da planilha que originou o demonstrativo.
 1. Clique no link para abrir a planilha.
 
