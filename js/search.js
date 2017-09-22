@@ -75,7 +75,7 @@ layout: null
 			searchResultsEl.innerHTML = resultsHTML;
 			searchProcessEl.innerText = "Foram encontrados os seguintes";
 		} else {
-			searchResultsEl.style.display = "nenhum";
+			searchResultsEl.style.display = "none";
 			searchProcessEl.innerText = "Não foram encontrados";
 		}
 	}
