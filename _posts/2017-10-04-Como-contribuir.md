@@ -5,9 +5,9 @@ categories:
   - indices-previdenciarios
   - calculos-previdenciarios
   - desenvolvimento-de-planilhas
-  - calculo-tc
-  - calculo-rmi
-  - calculo-atrasados
+  - planilha-tc
+  - planilha-rmi
+  - planilha-atrasados
 description: O que fazer para nos ajudar a desenvolver e aperfeiçoar as planilhas de cálculo e os complementos.
 type: Document
 ---
