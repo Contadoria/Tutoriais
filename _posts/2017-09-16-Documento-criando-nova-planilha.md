@@ -38,7 +38,7 @@ Quando a instalação for concluída, você visualizará a tela abaixo:
 
 {% include note.html type="normal" text="Você deve estar logado no <b>Google Drive</b>. Se ainda não estiver, clique em “<b>fazer login</b>” e digite seu nome de usuário e senha." %}
 
-Acesse `Meu Drive > Mais > Planilhas da Contadoria`
+Clique com o botão **direito** do mouse e acesse `Mais > Planilhas da Contadoria`
 
 {% include image.html url="/images/Tela_Complemento_Planilhas.png" description="Tela Complemento" %}
 
