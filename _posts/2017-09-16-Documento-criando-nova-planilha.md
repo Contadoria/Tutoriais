@@ -46,6 +46,8 @@ Digite um identificador (por exemplo: número do processo) e escolha a(s) planil
 
 Quando estiver tudo selecionado, clique em `Criar +`.
 
+{% include image.html url="/images/Tela_Complemento_Planilhas_02.png" description="Tela Complemento 02" %}
+
 **PRONTO!**
 
 A sua cópia já está criada e armazenada no *Drive*. Agora você pode utilizá-la para fazer o seu novo cálculo.
