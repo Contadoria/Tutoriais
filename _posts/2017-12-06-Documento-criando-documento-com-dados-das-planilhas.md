@@ -63,6 +63,8 @@ As informações podem ser importadas, utilizando *tags* como por exemplo:
 
 Você pode também criar tags customizados, utilizando a sintaxe {{intervalo}}, na qual “intervalo” corresponde a um nome de intervalo na planilha. Você também pode utilizar **disjuntores**, como, por exemplo, {{intervalo1 || intervalo2}}, caso em que, não havendo valores para o “intervalo1” será retornado o valor do “intervalo2”. Também é possível utilizar uma expressão literal entre aspas. Por exemplo, o tag {{intervalo1 || intervalo2 || “-”}} instrui o WebApp a substituir o tag por um traço caso não sejam encontrados valores para nenhum dos intervalos.
 
+{% include image.html url="/images/Tela_Criar_Documento_02.png" description="Tela Documentos" %}
+
 ## Criando um documento a partir de dados das planilhas
 
 {% include note.html type="normal" text="Você deve estar logado no <b>Google Drive</b>. Se ainda não estiver, clique em “<b>fazer login</b>” e digite seu nome de usuário e senha." %}
@@ -81,10 +83,8 @@ Selecione um modelo e clique em `Selecionar`
 
 Digite um identificador e clique em `Criar`.
 
-{% include image.html url="/images/Tela_Complemento_Planilhas_04.png" description="Tela Complemento 02" %}
+{% include image.html url="/images/Tela_Complemento_Documentos_04.png" description="Tela Complemento 02" %}
 
 **PRONTO!**
 
 O documento foi criado e armazenado no *Drive*. Agora você pode abri-lo e visualizá-lo.
-
-{% include note.html type="tip" text="Você pode criar no seu <b>Drive</b> quantas pastas quiser para melhor organizar as planilhas, exatamente como faz no seu computador ou na rede institucional." %}
