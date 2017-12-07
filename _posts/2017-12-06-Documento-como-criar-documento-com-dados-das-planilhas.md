@@ -47,9 +47,9 @@ As informações podem ser importadas, utilizando *tags* como por exemplo:
 + {% raw %}{{DER}}{% endraw %}: retorna o valor do intervalos "DER" ou  "-"';
 + {% raw %}{{DCB}}{% endraw %}: retorna o valor do intervalo "DCB", "DCBOriginario" ou "-";
 + {% raw %}{{RMI}}{% endraw %}: retorna o valor do intervalo "RMI", "RMIInformada", "RMIOriginario" ou "-";
-+ {% raw %}{{RMI_Extenso}}{% endraw %}: retorna o valor dos mesmos intervalo de {{RMI}}, mas por extenso, não em algarismos;
++ {% raw %}{{RMI_Extenso}}{% endraw %}: retorna o valor dos mesmos intervalo de {% raw %}{{RMI}}{% endraw %}, mas por extenso, não em algarismos;
 + {% raw %}{{RMA}}{% endraw %}: retorna o valor do intervalo "RMA", "RMAOriginario" ou "-";
-+ {% raw %}{{RMA_Extenso}}{% endraw %}: retorna o valor dos mesmos intervalo de {{RMA}}, mas por extenso, não em algarismos;
++ {% raw %}{{RMA_Extenso}}{% endraw %}: retorna o valor dos mesmos intervalo de {% raw %}{{RMA}}{% endraw %}, mas por extenso, não em algarismos;
 + {% raw %}{{HOJE}}{% endraw %}: retorna a data atual em formato "dd/mm/aaaa";
 + {% raw %}{{HOJE_Extenso}}{% endraw %}: retorna a data atual, em formato “dd de mmmm de aaaa”;
 + {% raw %}{{TC}}{% endraw %}: retorna a lista de períodos listados em seguida ao intervalo “TCProcessado”, com as linhas numeradas em sequência, ou “-”;
@@ -61,7 +61,7 @@ As informações podem ser importadas, utilizando *tags* como por exemplo:
 + {% raw %}{{Citacao}}{% endraw %}: retorna o valor do intervalo “Citacao” ou "-";
 + {% raw %}{{Protocolo}}{% endraw %}: retorna o valor do intervalo “Protocolo” ou "-";
 
-Você pode também criar tags customizados, utilizando a sintaxe {% raw %}{{{% endraw %}intervalo{% raw}}}{% endraw %}, na qual “intervalo” corresponde a um nome de intervalo na planilha. Você também pode utilizar **disjuntores**, como, por exemplo, {% raw %}{{{% endraw %}intervalo1 || intervalo2{% raw %}}}{% endraw %}, caso em que, não havendo valores para o “intervalo1” será retornado o valor do “intervalo2”. Também é possível utilizar uma expressão literal entre aspas. Por exemplo, o tag {{intervalo1 || intervalo2 || “-”}} instrui o WebApp a substituir o tag por um traço caso não sejam encontrados valores para nenhum dos intervalos.
+Você pode também criar tags customizados, utilizando a sintaxe {{intervalo}}, na qual “intervalo” corresponde a um nome de intervalo na planilha. Você também pode utilizar **disjuntores**, como, por exemplo, {{intervalo1 || intervalo2}}, caso em que, não havendo valores para o “intervalo1” será retornado o valor do “intervalo2”. Também é possível utilizar uma expressão literal entre aspas. Por exemplo, o tag {{intervalo1 || intervalo2 || “-”}} instrui o WebApp a substituir o tag por um traço caso não sejam encontrados valores para nenhum dos intervalos.
 
 {% include image.html url="/images/Tela_Criar_Documento_02.png" description="Tela Documentos" %}
 
