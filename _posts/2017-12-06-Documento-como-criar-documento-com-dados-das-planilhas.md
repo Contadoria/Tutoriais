@@ -1,6 +1,6 @@
 ---
 date: 2017-12-06
-title: Criando documentos, utilizando dados das planilhas para preenchimento de um modelo
+title: Como criar documentos, utilizando dados das planilhas para preenchimento de um modelo
 categories:
   - planilha-tc
   - planilha-rmi
@@ -44,24 +44,24 @@ Elabore um documento com as informações pertinentes
 As informações podem ser importadas, utilizando *tags* como por exemplo:
 
 + {% raw %}{{DIB}}{% endraw %}: retorna o valor do intervalo "DIB", "DIBOriginario", "DER" ou "-";
-+ {{DER}}: retorna o valor do intervalos "DER" ou  "-"';
-+ {{DCB}}: retorna o valor do intervalo "DCB", "DCBOriginario" ou "-";
-+ {{RMI}}: retorna o valor do intervalo "RMI", "RMIInformada", "RMIOriginario" ou "-";
-+ {{RMI_Extenso}}: retorna o valor dos mesmos intervalo de {{RMI}}, mas por extenso, não em algarismos;
-+ {{RMA}}: retorna o valor do intervalo "RMA", "RMAOriginario" ou "-";
-+ {{RMA_Extenso}}: retorna o valor dos mesmos intervalo de {{RMA}}, mas por extenso, não em algarismos;
-+ {{HOJE}}: retorna a data atual em formato "dd/mm/aaaa";
-+ {{HOJE_Extenso}}: retorna a data atual, em formato “dd de mmmm de aaaa”;
-+ {{TC}}: retorna a lista de períodos listados em seguida ao intervalo “TCProcessado”, com as linhas numeradas em sequência, ou “-”;
-+ {{Especie}}: retorna a espécie do benefício, no formato “n - nome” ou “-”;
-+ {{NB}}: retorna o valor do intervalo “NB”, “NBOriginario” ou "-";
-+ {{Processo}}: retorna o valor do intervalo “Processo” ou "-";
-+ {{Autor}}: retorna o valor do intervalo “Autor” ou "-";
-+ {{Reu}}: retorna o valor do intervalo “Reu” ou "-";
-+ {{Citacao}}: retorna o valor do intervalo “Citacao” ou "-";
-+ {{Protocolo}}: retorna o valor do intervalo “Protocolo” ou "-";
++ {% raw %}{{DER}}{% endraw %}: retorna o valor do intervalos "DER" ou  "-"';
++ {% raw %}{{DCB}}{% endraw %}: retorna o valor do intervalo "DCB", "DCBOriginario" ou "-";
++ {% raw %}{{RMI}}{% endraw %}: retorna o valor do intervalo "RMI", "RMIInformada", "RMIOriginario" ou "-";
++ {% raw %}{{RMI_Extenso}}{% endraw %}: retorna o valor dos mesmos intervalo de {{RMI}}, mas por extenso, não em algarismos;
++ {% raw %}{{RMA}}{% endraw %}: retorna o valor do intervalo "RMA", "RMAOriginario" ou "-";
++ {% raw %}{{RMA_Extenso}}{% endraw %}: retorna o valor dos mesmos intervalo de {{RMA}}, mas por extenso, não em algarismos;
++ {% raw %}{{HOJE}}{% endraw %}: retorna a data atual em formato "dd/mm/aaaa";
++ {% raw %}{{HOJE_Extenso}}{% endraw %}: retorna a data atual, em formato “dd de mmmm de aaaa”;
++ {% raw %}{{TC}}{% endraw %}: retorna a lista de períodos listados em seguida ao intervalo “TCProcessado”, com as linhas numeradas em sequência, ou “-”;
++ {% raw %}{{Especie}}{% endraw %}: retorna a espécie do benefício, no formato “n - nome” ou “-”;
++ {% raw %}{{NB}}{% endraw %}: retorna o valor do intervalo “NB”, “NBOriginario” ou "-";
++ {% raw %}{{Processo}}{% endraw %}: retorna o valor do intervalo “Processo” ou "-";
++ {% raw %}{{Autor}}{% endraw %}: retorna o valor do intervalo “Autor” ou "-";
++ {% raw %}{{Reu}}{% endraw %}: retorna o valor do intervalo “Reu” ou "-";
++ {% raw %}{{Citacao}}{% endraw %}: retorna o valor do intervalo “Citacao” ou "-";
++ {% raw %}{{Protocolo}}{% endraw %}: retorna o valor do intervalo “Protocolo” ou "-";
 
-Você pode também criar tags customizados, utilizando a sintaxe {{intervalo}}, na qual “intervalo” corresponde a um nome de intervalo na planilha. Você também pode utilizar **disjuntores**, como, por exemplo, {{intervalo1 || intervalo2}}, caso em que, não havendo valores para o “intervalo1” será retornado o valor do “intervalo2”. Também é possível utilizar uma expressão literal entre aspas. Por exemplo, o tag {{intervalo1 || intervalo2 || “-”}} instrui o WebApp a substituir o tag por um traço caso não sejam encontrados valores para nenhum dos intervalos.
+Você pode também criar tags customizados, utilizando a sintaxe {% raw %}{{intervalo}}{% endraw %}, na qual “intervalo” corresponde a um nome de intervalo na planilha. Você também pode utilizar **disjuntores**, como, por exemplo, {% raw %}{{intervalo1 || intervalo2}}{% endraw %}, caso em que, não havendo valores para o “intervalo1” será retornado o valor do “intervalo2”. Também é possível utilizar uma expressão literal entre aspas. Por exemplo, o tag {{intervalo1 || intervalo2 || “-”}} instrui o WebApp a substituir o tag por um traço caso não sejam encontrados valores para nenhum dos intervalos.
 
 {% include image.html url="/images/Tela_Criar_Documento_02.png" description="Tela Documentos" %}
 
