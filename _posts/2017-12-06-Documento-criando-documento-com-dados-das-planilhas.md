@@ -43,7 +43,7 @@ Elabore um documento com as informações pertinentes
 
 As informações podem ser importadas, utilizando *tags* como por exemplo:
 
-+ {%raw%}{{DIB}}{%endraw%}: retorna o valor do intervalo "DIB", "DIBOriginario", "DER" ou "-";
++ {% raw %}{{DIB}}{% endraw %}: retorna o valor do intervalo "DIB", "DIBOriginario", "DER" ou "-";
 + {{DER}}: retorna o valor do intervalos "DER" ou  "-"';
 + {{DCB}}: retorna o valor do intervalo "DCB", "DCBOriginario" ou "-";
 + {{RMI}}: retorna o valor do intervalo "RMI", "RMIInformada", "RMIOriginario" ou "-";
