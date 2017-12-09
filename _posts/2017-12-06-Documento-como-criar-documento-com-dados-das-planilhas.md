@@ -63,7 +63,7 @@ As informações podem ser importadas, utilizando *tags* como por exemplo:
 
 Você pode também criar tags customizados, utilizando a sintaxe {% raw}{{intervalo}}{% endraw %}, na qual “intervalo” corresponde a um nome de intervalo na planilha. 
 
-Outra opção é utilizar **disjuntores**, como, por exemplo, {% raw %}{{{% endraw %}intervalo1 || intervalo2{% raw}}}{% endraw %}, caso em que, não havendo valores para o “intervalo1” será retornado o valor do “intervalo2”. 
+Outra opção é utilizar **disjuntores**, como, por exemplo, {% raw %}{{intervalo1 || intervalo2}}{% endraw %}, caso em que, não havendo valores para o “intervalo1” será retornado o valor do “intervalo2”. 
 
 Também é possível utilizar uma expressão literal entre aspas. Por exemplo, o tag {{intervalo1 || intervalo2 || “-”}} instrui o WebApp a substituir o tag por um traço caso não sejam encontrados valores para nenhum dos intervalos.
 
