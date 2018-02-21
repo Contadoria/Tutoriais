@@ -12,6 +12,8 @@ set_order: 2
 ---
 Neste tutorial mostraremos como você pode iniciar um novo cálculo do "zero", fazendo uma cópia, para o seu *Drive*, de qualquer uma das planilhas.
 
+{% include note.html type="normal" text="Os navegadores instalados na Justiça Federal não possuem a última versão disponível instalada, visando a compatibilidade com os programas utilizados. Recomendamos a utilização do <b>Google Chrome</b> para que as planilhas e as ferramentas funcionem adequadamente" %}
+
 ## Como instalar o complemento Planilhas da Contadoria
 
 Todas as planilhas de cálculo desenvolvidas pelo **Projeto Contadoria** são distribuídas aos usuários por meio do complemento **Planilhas da Contadoria**. 
