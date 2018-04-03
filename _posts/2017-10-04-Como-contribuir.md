@@ -31,7 +31,7 @@ Se você quiser entender melhor do que se trata, veja [aqui](https://pt.wikipedi
 
 Para facilitar sua vida, nós desenvolvemos um modo mais simples de criar _**issues**_. É um "aplicativinho" que concentra todos os procedimentos para você numa única tela.
 
-Você pode acessá-lo seguindo este [link](https://script.google.com/macros/s/AKfycbwMQVo2G0pvhvq-aadi9LOK8UUYn2eK-36nz7jZVyqTcZ06Ncc/exec){:target="_blank"}.Caso prefira, poderá acessá-lo diretamente da planilha de cálculo, clicando em "complementos - cálculos previdenciários - ajuda - informar um problema".
+Você pode acessá-lo seguindo este [link](https://script.google.com/macros/s/AKfycbwMQVo2G0pvhvq-aadi9LOK8UUYn2eK-36nz7jZVyqTcZ06Ncc/exec){:target="_blank"}. Caso prefira, poderá acessá-lo diretamente da planilha de cálculo, clicando em "complementos - cálculos previdenciários - ajuda - informar um problema".
 
 Inicialmente, você se deparará com uma barra de ferramentas com o logo da Contadoria e um botão de _login_. Clique nesse botão para logar-se, conforme a figura abaixo:
 
