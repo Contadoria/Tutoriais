@@ -2,18 +2,18 @@
 date: 2017-01-21
 title: Instalando o complemento
 video_id: -7dyMliIxM0
-description: Como instalar o complemento Cálculos Previdenciários.
+description: Como instalar o complemento Contadoria Cálculos.
 categories:
   - calculos-previdenciarios
 resources:
   - name: "Link para complemento "
-    link: https://chrome.google.com/webstore/detail/c%C3%A1lculos-previdenci%C3%A1rios/cjeahogdijapbbnndojpidgdneeepnla
+    link: https://chrome.google.com/webstore/detail/contadoria-c%C3%A1lculos/jakfnmamaegnnpojhbcapbhjjjdkhdml
 type: Video
 set: primeiros-passos
 set_order: 3
 ---
 
-O complemento **Cálculos Previdenciários** disponibiliza nas planilhas *Google Sheets* ferramentas que facilitam a elaboração de cálculos previdenciários.
+O complemento **Contadoria Cálculos** disponibiliza nas planilhas *Google Sheets* ferramentas que facilitam a elaboração de cálculos previdenciários.
 
 Neste tutorial mostraremos como instalá-lo. As instruções sobre como utilizá-lo você encontrará distribuídas em outros tutoriais.
 
