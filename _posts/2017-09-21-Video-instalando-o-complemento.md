@@ -7,13 +7,13 @@ categories:
   - calculos-previdenciarios
 resources:
   - name: "Link para complemento "
-    link: https://chrome.google.com/webstore/detail/contadoria-c%C3%A1lculos/jakfnmamaegnnpojhbcapbhjjjdkhdml
+    link: https://chrome.google.com/webstore/detail/c%C3%A1lculos-previdenci%C3%A1rios/cjeahogdijapbbnndojpidgdneeepnla?hl=pt-BR
 type: Video
 set: primeiros-passos
 set_order: 3
 ---
 
-O complemento **Contadoria Cálculos** disponibiliza nas planilhas *Google Sheets* ferramentas que facilitam a elaboração de cálculos previdenciários.
+O complemento **Cálculos Previdenciários** disponibiliza nas planilhas *Google Sheets* ferramentas que facilitam a elaboração de cálculos previdenciários.
 
 Neste tutorial mostraremos como instalá-lo. As instruções sobre como utilizá-lo você encontrará distribuídas em outros tutoriais.
 
