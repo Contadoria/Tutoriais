@@ -22,7 +22,22 @@ type: Document
 
 
 **Não consigo acessar o complemento "Contadoria Planilhas". O que devo fazer?**
-+ Reinstale o complemento (acesse o [https//bit.ly/contadoria](https://bit.ly/contadoria){:target="_blank"})
++ Reinstale o complemento (acesse [https//bit.ly/contadoria](https://bit.ly/contadoria){:target="_blank"})
+
+## CalculoTC
+
+**Pra que serve a aba TCAdicionado?**
++ Para adicionar um tempo líquido em formato anos, meses e dias.
+
+
+**Quais as formas de alterar a apuração da carência de um período?**
++ é possível não computar a carência com o lançamento na coluna N da aba TCDiscriminado;
++ é possível alterar a carência apurada automaticamente na coluna V da aba ModificadoresCarencia. **Atente que os períodos desta aba são recalculados caso sejam alterados os períodos na aba TCDiscriminado.**
+
+
+**Como apurar o tempo de contribuição com as devidas conversões de uma aposentadoria da pessoa portadora de deficiência?**
++ Defina essa opção na célula K9 da aba Processo: `Sim`
+ Classifique os períodos lançados na coluna H da aba TCDiscriminado. Se não for lançada nenhuma classificação, o período será definido como `1 - Comum`, portanto sem deficiência.
 
 
 ## CalculoAtrasados
@@ -50,5 +65,11 @@ type: Document
 + Preencher o valor do salário-de-benefício do benefício originário (célula J10 da aba Atualização). 
 
 
+**Para fazer um cálculo referente ao desdobramento de pensão, qual a forma de preenchimento das Quotas (aba Desdobro)?**
++ Preencha a fração com o sinal de "=" antes. Por exemplo: =1/2
+
+
+**Onde preencho o índice de reposição do teto?**
++ Célula D6 da aba Atualizacao.
 
 {% include screenshot.html url="/images/Issues_Popup.png" description="Popup" %}
