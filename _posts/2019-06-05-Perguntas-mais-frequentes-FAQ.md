@@ -39,6 +39,15 @@ type: Document
 + Defina essa opção na célula K9 da aba Processo: `Sim`
  Classifique os períodos lançados na coluna H da aba TCDiscriminado. Se não for lançada nenhuma classificação, o período será definido como `1 - Comum`, portanto sem deficiência.
 
+##CalculoRMI##
+
+**Qual a melhor forma de preencher o valor de um salário-mínimo em determinada competência?**
++ Preencher `Sim` nas células correspondentes da coluna H da aba Modificadores2.
+
+
+**É possível calcular o benefício com base na média dos 36 últimos salários de contribuição?**
++ Sim. Em caso de direito adquirido, preencha a data no campo F14 e selecione a sistemática no campo F17 da aba Modificadores1.
+
 
 ## CalculoAtrasados
 **Qual a diferença entre os campos `DCB` (célula D9 da aba BeneficioDevido) e `DataFinaldasDiferencas` (célula J9 da aba BeneficioDevido)?**
