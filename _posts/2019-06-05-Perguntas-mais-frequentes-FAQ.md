@@ -15,12 +15,15 @@ type: Document
 
 ## Perguntas mais frequentes (FAQ)
 
+
 **Qual a melhor forma de localizar os links de instalação das ferramentas?**
-+ Acesse [link](https://bit.ly/contadoria){:target="_blank"}
++ Acesse [https//bit.ly/contadoria](https://bit.ly/contadoria){:target="_blank"}
+
 
 
 **Não consigo acessar o complemento "Contadoria Planilhas". O que devo fazer?**
-+ Resinstale o complemento (acesse o [link](https://bit.ly/contadoria){:target="_blank"})
++ Resinstale o complemento (acesse o [https//bit.ly/contadoria](https://bit.ly/contadoria){:target="_blank"})
+
 
 
 **Tentei converter um auxílio-doença em aposentadoria por invalidez, mas o valor da renda não foi alterado.**
