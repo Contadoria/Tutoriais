@@ -21,8 +21,12 @@ type: Document
 
 
 
-**Não consigo acessar o complemento "Contadoria Planilhas". O que devo fazer?**
+**Não consigo acessar o complemento `Contadoria Planilhas`. O que devo fazer?**
 + Reinstale o complemento (acesse [https//bit.ly/contadoria](https://bit.ly/contadoria){:target="_blank"})
+
+
+**Como consigo extrair informações do CNIS**
++ Instale o complemento `Cálculos Previdenciários` (acesse [https//bit.ly/contadoria](https://bit.ly/contadoria){:target="_blank"})
 
 ## CalculoTC
 
@@ -39,7 +43,7 @@ type: Document
 + Defina essa opção na célula K9 da aba Processo: `Sim`
  Classifique os períodos lançados na coluna H da aba TCDiscriminado. Se não for lançada nenhuma classificação, o período será definido como `1 - Comum`, portanto sem deficiência.
 
-##CalculoRMI##
+## CalculoRMI
 
 **Qual a melhor forma de preencher o valor de um salário-mínimo em determinada competência?**
 + Preencher `Sim` nas células correspondentes da coluna H da aba Modificadores2.
