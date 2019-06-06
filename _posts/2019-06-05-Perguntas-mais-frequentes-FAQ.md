@@ -19,7 +19,7 @@ type: Document
 **Qual a melhor forma de localizar os links de instalação das ferramentas?**
 + Acesse [https://bit.ly/contadoria](https://bit.ly/contadoria){:target="_blank"}
 
-**Pra que serve o endereço https//bit.ly/contadoria?**
+**Pra que serve o endereço [https://bit.ly/contadoria](https//bit.ly/contadoria){:target="_blank"}?**
 + Nesse endereço, centralizamos os links de acesso atualizados para as ferramentas, bem como para planilha online.
 
 **Não consigo acessar o complemento `Contadoria Planilhas`. O que devo fazer?**
