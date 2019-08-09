@@ -12,7 +12,9 @@ Neste tutorial mostraremos como utilizar os formulários de cálculo online.
 
 ## Como acessar o formulário de cálculo online
 
-Uma planilha de cálculo foi criada e configurada com objetivo de facilitar a liquidação dos julgados e está disponível no [link](http://bit.ly/contadoria){:target="_blank"}.
+Uma planilha de cálculo foi criada e configurada com objetivo de facilitar a liquidação dos julgados e está disponível na ferramenta de [Acesso Rápido](http://bit.ly/contadoria){:target="_blank"}.
+
+{% include note.html type="normal" text="Você deve estar logado no <b>Google Drive</b>. Se ainda não estiver, clique em “<b>fazer login</b>” e digite seu nome de usuário e senha." %}
 
 Caso seja o primeiro acesso, leia e aceite os **termos de uso**.
 
@@ -26,15 +28,15 @@ Clique em `PERMITIR`
 
 Quando a instalação for concluída, você visualizará a tela abaixo: 
 
-{% include image.html url="/images/Tela_Instalacao_Planilhas.png" description="Tela Instalação" %}
+{% include image.html url="/images/Tela_Instalacao_Planilhas.png" description="Tela Acesso Rápido" %}
 
 ## Elaboração de cálculo
 
 O formulário de cálculo exige a inserção de certos dados obrigatórios, marcados com um asterisco. 
 
-{% include note.html type="normal" text="Você deve estar logado no <b>Google Drive</b>. Se ainda não estiver, clique em “<b>fazer login</b>” e digite seu nome de usuário e senha." %}
 
-Clique com o botão **direito** do mouse e acesse `Mais > Planilhas da Contadoria`
+
+É possível importar os dados do processo 
 
 {% include image.html url="/images/Tela_Complemento_Planilhas.png" description="Tela Complemento" %}
 
@@ -46,6 +48,4 @@ Quando estiver tudo selecionado, clique em `Criar +`.
 
 **PRONTO!**
 
-A sua cópia já está criada e armazenada no *Drive*. Agora você pode utilizá-la para fazer o seu novo cálculo.
-
-{% include note.html type="tip" text="Você pode criar no seu <b>Drive</b> quantas pastas quiser para melhor organizar as planilhas, exatamente como faz no seu computador ou na rede institucional." %}
+O cálculo foi concluído e já foi gravado no seu computador.
