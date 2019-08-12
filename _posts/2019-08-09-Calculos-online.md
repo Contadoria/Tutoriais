@@ -39,7 +39,7 @@ Uma planilha de cálculo foi criada e configurada com objetivo de facilitar a li
 
 ## Importando dados básicos do processo
 
-É possível importar os dados básicos do processo. Para isso:
+É possível importar os dados básicos do processo:
 
 + Acesse o [site do Juizado Especial Federal Cìvel de São Paulo](http://jef.trf3.jus.br/){:target="_blank"};
 + Digite o número do processo e clique em `Consultar`;
@@ -60,15 +60,15 @@ O formulário de cálculo exige a inserção dos seguintes dados **obrigatórios
 + Data de atualização 
 + Data final das diferenças
 + Espécie do benefício
-+ Data de início do benefício (DIB)
-+ Renda mensal inicial (RMI)
++ Data de início do benefício (`DIB`)
++ Renda mensal inicial (`RMI`)
 
 
 **Quadro espécies de benefício**
 
 {% include image.html url="/images/Lista_Beneficios.png" description="Lista Benefícios" %}
 
-Ao terminar de inserir os dados necessários para elaboração do cálculo, clique em Calcular (cor alterada de vermelho para verde) e aguarde o processamento dos cálculos.
+Ao terminar de inserir os dados necessários para elaboração do cálculo, clique em Calcular (cor será alterada de vermelho para verde) e aguarde o processamento dos cálculos.
 
 Com isso, é possível gerar um arquivo em PDF ou PNG.
 
@@ -76,4 +76,25 @@ Com isso, é possível gerar um arquivo em PDF ou PNG.
 
 O cálculo foi concluído e já foi gravado no seu computador.
 
-## 
+{% include note.html type="normal" text="Normalmente os arquivos são gravados na pasta de <b>Downloads</b> do seu computador" %}
+
+## Desconto de valores (evolução com base na aplicação de índices de reajuste legais)
+
+Neste método, é necessário digitar os dados do benefício originário: 
++ Data de início do benefício (`DIB`)
++ Renda mensal Inicial (`RMI`)
++ Data de cessação do benefício (se for o caso)
++ Índice teto (se houver)
++ Opção de calcular abono
+
+{% include note.html type="normal" text="É possível descontar até 3 benefícios dessa forma." %}
+
+## Desconto de valores (inserção em cada competência)
+
+Neste método, o desconto deve ser efetuado em cada competência.
++ Digite o mês ou ano que deseja realizar o desconto
++ Clique com o botão direito na competência e depois em `Editar`
++ Digite o valor a ser descontado e depois em `Confirmar`
+valores em cada uma das competências nas seções `Ajuste de Descontos (Renda)` e `Ajuste de Descontos (Abono)`. Digite a competência
+
+{% include note.html type="normal" text="Utilize este método para descontar valores inferiores ao salário-mínimo ou superiores ao teto máximo de pagamento." %}
