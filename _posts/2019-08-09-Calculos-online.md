@@ -17,21 +17,21 @@ Uma planilha de cálculo foi criada e configurada com objetivo de facilitar a li
 
 {% include note.html type="normal" text="Você deve estar logado no <b>Google Drive</b>. Se ainda não estiver, clique em “<b>fazer login</b>” e digite seu nome de usuário e senha." %}
 
-Caso seja o primeiro acesso, clique em `REVIEW PERMISSIONS`
++ Caso seja o primeiro acesso, clique em `REVIEW PERMISSIONS`
 
 {% include image.html url="/images/acesso rapido instala 1.png" description="Instalação 1" %}
 
-Clique na sua conta Google.
++ Clique na sua conta *Google*.
 
-Clique em `PERMITIR`
++ Clique em `PERMITIR`
 
 {% include image.html url="/images/acesso rapido instala 2.png" description="Instalação 2" %}
 
-Quando a instalação for concluída, você visualizará a tela abaixo: 
++ Quando a instalação for concluída, você visualizará a tela abaixo: 
 
 {% include image.html url="/images/bitly.png" description="Tela Acesso Rápido" %}
 
-Acesse a planilha clicando em `Liquidação`.
++ Acesse a planilha clicando em `Liquidação`.
 
 {% include image.html url="/images/Tela_Calculos_Online.png" description="Cálculos Online" %}
 
@@ -50,7 +50,6 @@ Acesse a planilha clicando em `Liquidação`.
 + Cole as informações pressionando `Control + V` e clique no botão .
 
 
-
 ## Elaboração de cálculo
 
 O formulário de cálculo exige a inserção dos seguintes dados **obrigatórios** (marcados com um **asterisco**):
@@ -64,6 +63,7 @@ O formulário de cálculo exige a inserção dos seguintes dados **obrigatórios
 + Data de início do benefício (DIB)
 + Renda mensal inicial (RMI)
 
+
 **Quadro espécies de benefício**
 
 {% include image.html url="/images/Lista_Beneficios.png" description="Lista Benefícios" %}
@@ -75,3 +75,5 @@ Com isso, é possível gerar um arquivo em PDF ou PNG.
 **PRONTO!**
 
 O cálculo foi concluído e já foi gravado no seu computador.
+
+## 
