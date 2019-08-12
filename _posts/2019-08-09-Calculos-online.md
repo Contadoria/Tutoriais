@@ -16,19 +16,19 @@ Uma planilha de cálculo foi criada e configurada com objetivo de facilitar a li
 
 {% include note.html type="normal" text="Você deve estar logado no <b>Google Drive</b>. Se ainda não estiver, clique em “<b>fazer login</b>” e digite seu nome de usuário e senha." %}
 
-Caso seja o primeiro acesso, leia e aceite os **termos de uso**.
+Caso seja o primeiro acesso, clique em `REVIEW PERMISSIONS`
 
-Clique em `INSTALAR`
+{% include image.html url="/images/acesso rapido instala 1.png" description="Instalação 1" %}
 
-Clique em `Avançado`
-
-Clique em `Acessar Contadoria Drive (não seguro)`
+Clique na sua conta Google.
 
 Clique em `PERMITIR`
 
+{% include image.html url="/images/acesso rapido instala 2.png" description="Instalação 2" %}
+
 Quando a instalação for concluída, você visualizará a tela abaixo: 
 
-{% include image.html url="/images/Tela_Instalacao_Planilhas.png" description="Tela Acesso Rápido" %}
+{% include image.html url="/images/bitly.png" description="Tela Acesso Rápido" %}
 
 ## Elaboração de cálculo
 
