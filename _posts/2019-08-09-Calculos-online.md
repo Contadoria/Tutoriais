@@ -30,13 +30,22 @@ Quando a instalação for concluída, você visualizará a tela abaixo:
 
 {% include image.html url="/images/bitly.png" description="Tela Acesso Rápido" %}
 
+Acesse a planilha clicando em `Liquidação`.
+
+{% include image.html url="/images/Tela_Calculos_Online.png" description="Cálculos Online" %}
+
 ## Elaboração de cálculo
 
-O formulário de cálculo exige a inserção de certos dados obrigatórios, marcados com um asterisco. 
+O formulário de cálculo exige a inserção de certos dados obrigatórios (marcados com um **asterisco**). 
 
+É possível importar os dados básicos do processo. Para isso:
 
-
-É possível importar os dados do processo 
++ acesse o [site do Juizado Especial Federal Cìvel de São Paulo](http://jef.trf3.jus.br/){:target="_blank"};
++ digite o número do processo e clique em `Consultar`;
+{% include image.html url="/images/Tela_Sisjef.png" description="SISJEF" %}
++ Selecione todas as informações pressionando `Control + A`;
++ Copie as informações pressionando `Control + C`;
++ 
 
 {% include image.html url="/images/Tela_Complemento_Planilhas.png" description="Tela Complemento" %}
 
