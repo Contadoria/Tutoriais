@@ -34,26 +34,36 @@ Acesse a planilha clicando em `Liquidação`.
 
 {% include image.html url="/images/Tela_Calculos_Online.png" description="Cálculos Online" %}
 
-## Elaboração de cálculo
-
-O formulário de cálculo exige a inserção de certos dados obrigatórios (marcados com um **asterisco**). 
+## Importando dados básicos do processo
 
 É possível importar os dados básicos do processo. Para isso:
 
-+ acesse o [site do Juizado Especial Federal Cìvel de São Paulo](http://jef.trf3.jus.br/){:target="_blank"};
-+ digite o número do processo e clique em `Consultar`;
++ Acesse o [site do Juizado Especial Federal Cìvel de São Paulo](http://jef.trf3.jus.br/){:target="_blank"};
++ Digite o número do processo e clique em `Consultar`;
 {% include image.html url="/images/Tela_Sisjef.png" description="SISJEF" %}
 + Selecione todas as informações pressionando `Control + A`;
 + Copie as informações pressionando `Control + C`;
-+ 
++ Clique no botão de `Preenchimento automático` ao lado do Título `'. Dados do Processo`;
++ Cole as informações pressionando `Control + V` e clique no botão .
 
-{% include image.html url="/images/Tela_Complemento_Planilhas.png" description="Tela Complemento" %}
+## Elaboração de cálculo
 
-Digite um identificador (por exemplo: número do processo) e escolha a(s) planilhas que deseja criar no destino.
+O formulário de cálculo exige a inserção dos seguintes dados obrigatórios (marcados com um **asterisco**):
++ Número do processo
++ Data do protocolo
++ Data da citação
++ Nome do Autor
++ Data de atualização 
++ Data final das diferenças
++ Espécie do benefício
++ Data de início do benefício (DIB)
++ Renda mensal inicial (RMI)
 
-Quando estiver tudo selecionado, clique em `Criar +`.
+Quadro espécies de benefício
 
-{% include image.html url="/images/Tela_Complemento_Planilhas_02.png" description="Tela Complemento 02" %}
+Ao terminar de inserir os dados necessários para elaboração do cálculo, clique em Calcular (cor alterada de vermelho para verde) e aguarde o processamento dos cálculos.
+
+Com isso, é possível gerar um arquivo em PDF ou PNG.
 
 **PRONTO!**
 
