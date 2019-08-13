@@ -45,7 +45,7 @@ Uma planilha de cálculo foi criada e configurada com objetivo de facilitar a li
 + Selecione todas as informações pressionando `Control + A`;
 + Copie as informações pressionando `Control + C`;
 + Clique no botão de `Preenchimento automático` ao lado do Título `1. Dados do Processo`;
-+ Cole as informações pressionando `Control + V` e clique no botão.
++ Cole as informações pressionando `Control + V` e clique no botão {% include image.html url="/images/Botao_Confirmar.png" description="Botao_Confirmar" %}.
 
 
 ## Elaboração do cálculo
