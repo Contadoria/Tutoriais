@@ -45,8 +45,8 @@ Uma planilha de cálculo foi criada e configurada com objetivo de facilitar a li
 + Selecione todas as informações pressionando `Control + A`;
 + Copie as informações pressionando `Control + C`;
 + Clique no botão de `Preenchimento automático` ao lado do Título `1. Dados do Processo`;
-+ Cole as informações pressionando `Control + V` e clique no botão {% include image.html url="/images/Botao_Confirmar.png" description="Botao_Confirmar" %}.
-
++ Cole as informações pressionando `Control + V` e clique no botão: {% include image.html url="/images/Botao_Confirmar.png" description="Botao_Confirmar" %}
++ Os dados serão transferidos para o formulário de cálculo online.
 
 ## Elaboração do cálculo
 
@@ -65,9 +65,9 @@ O formulário de cálculo exige a inserção dos seguintes dados **obrigatórios
 
 {% include image.html url="/images/Lista_Beneficios.png" description="Lista Benefícios" %}
 
-Ao terminar de inserir os dados necessários para elaboração do cálculo, clique em Calcular (cor será alterada de vermelho para verde) e aguarde o processamento dos cálculos.
+Ao terminar de inserir os dados necessários para elaboração do cálculo, clique em {% include image.html url="/images/Botao_Calcular.png" description="Botão Calcular Ok" %} e aguarde o processamento dos cálculos.
 
-Com isso, é possível gerar um arquivo em `PDF` ou `PNG`.
+Com isso, é possível gerar um arquivo em `PDF` {% include image.html url="/images/Botao_Pdf.png" description="Botão PDF" %} ou `PNG` {% include image.html url="/images/Botao_Png.png" description="Botão PNG" %}.
 
 **PRONTO!**
 
