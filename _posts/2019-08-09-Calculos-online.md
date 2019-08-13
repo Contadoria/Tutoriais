@@ -39,7 +39,7 @@ Uma planilha de cálculo foi criada e configurada com objetivo de facilitar a li
 
 ## Importando dados básicos do processo
 
-É possível importar os dados básicos do processo:
+É possível importar os dados básicos do processo, como, por exemplo, número do processo, nome da parte, data do protocolo e data da citação.
 
 + Acesse o [site do Juizado Especial Federal Cìvel de São Paulo](http://jef.trf3.jus.br/){:target="_blank"};
 + Digite o número do processo e clique em `Consultar`;
@@ -47,17 +47,16 @@ Uma planilha de cálculo foi criada e configurada com objetivo de facilitar a li
 + Selecione todas as informações pressionando `Control + A`;
 + Copie as informações pressionando `Control + C`;
 + Clique no botão de `Preenchimento automático` ao lado do Título `1. Dados do Processo`;
-+ Cole as informações pressionando `Control + V` e clique no botão .
++ Cole as informações pressionando `Control + V` e clique no botão.
 
 
-## Elaboração de cálculo
+## Elaboração do cálculo
 
 O formulário de cálculo exige a inserção dos seguintes dados **obrigatórios** (marcados com um **asterisco**):
 + Número do processo
 + Data do protocolo
 + Data da citação
 + Nome do Autor
-+ Data de atualização 
 + Data final das diferenças
 + Espécie do benefício
 + Data de início do benefício (`DIB`)
@@ -70,7 +69,7 @@ O formulário de cálculo exige a inserção dos seguintes dados **obrigatórios
 
 Ao terminar de inserir os dados necessários para elaboração do cálculo, clique em Calcular (cor será alterada de vermelho para verde) e aguarde o processamento dos cálculos.
 
-Com isso, é possível gerar um arquivo em PDF ou PNG.
+Com isso, é possível gerar um arquivo em `PDF` ou `PNG`.
 
 **PRONTO!**
 
@@ -83,7 +82,7 @@ O cálculo foi concluído e já foi gravado no seu computador.
 Neste método, é necessário digitar os dados do benefício originário: 
 + Data de início do benefício (`DIB`)
 + Renda mensal Inicial (`RMI`)
-+ Data de cessação do benefício (se for o caso)
++ Data de cessação do benefício (`DCB`), se for o caso
 + Índice teto (se houver)
 + Opção de calcular abono
 
@@ -91,10 +90,9 @@ Neste método, é necessário digitar os dados do benefício originário:
 
 ## Desconto de valores (inserção em cada competência)
 
-Neste método, o desconto deve ser efetuado em cada competência.
+Neste método, o desconto deve ser efetuado em cada competência nas seções `8. Ajuste de Descontos (Renda)` e `9. Ajuste de Descontos (Abono)`.
 + Digite o mês ou ano que deseja realizar o desconto
 + Clique com o botão direito na competência e depois em `Editar`
 + Digite o valor a ser descontado e depois em `Confirmar`
-valores em cada uma das competências nas seções `Ajuste de Descontos (Renda)` e `Ajuste de Descontos (Abono)`. Digite a competência
 
 {% include note.html type="normal" text="Utilize este método para descontar valores inferiores ao salário-mínimo ou superiores ao teto máximo de pagamento." %}
