@@ -5,8 +5,6 @@ categories:
   - planilha-atrasados
 description: Instruções detalhadas sobre como utilizar os formulários de cálculo online.
 type: Document
-set: primeiros-passos
-set_order: 2
 ---
 Neste tutorial mostraremos como utilizar os formulários de cálculo online.
 
