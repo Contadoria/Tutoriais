@@ -65,7 +65,7 @@ O formulário de cálculo exige a inserção dos seguintes dados **obrigatórios
 
 {% include image.html url="/images/Lista_Beneficios.png" description="Lista Benefícios" %}
 
-Ao terminar de inserir os dados necessários para elaboração do cálculo, clique em {% include image.html url="/images/Botao_Calcular_Ok.png" description="Botão Calcular Ok" %} e aguarde o processamento dos cálculos.
+Ao terminar de inserir os dados necessários para elaboração do cálculo, clique em {% include image.html url="/images/Bota_Calcular_Ok.png" description="Botão Calcular Ok" %} e aguarde o processamento dos cálculos.
 
 Com isso, é possível gerar um arquivo em:
 + formato `PDF` {% include image.html url="/images/Botao_Pdf.png" description="Botão PDF" %}
