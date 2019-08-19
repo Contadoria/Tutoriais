@@ -11,25 +11,7 @@ Neste tutorial mostraremos como utilizar os formulários de cálculo online.
 
 ## Como acessar o formulário de cálculo online
 
-Uma planilha de cálculo foi criada e configurada com objetivo de facilitar a liquidação dos julgados e está disponível na ferramenta de [Acesso Rápido](http://bit.ly/contadoria){:target="_blank"}.
-
-{% include note.html type="normal" text="Você deve estar logado no <b>Google Drive</b>. Se ainda não estiver, clique em “<b>fazer login</b>” e digite seu nome de usuário e senha." %}
-
-+ Caso seja o primeiro acesso, clique em `REVIEW PERMISSIONS`
-
-{% include image.html url="/images/acesso rapido instala 1.png" description="Instalação 1" %}
-
-+ Clique na sua conta *Google*.
-
-+ Clique em `PERMITIR`
-
-{% include image.html url="/images/acesso rapido instala 2.png" description="Instalação 2" %}
-
-+ Quando a instalação for concluída, você visualizará a tela abaixo: 
-
-{% include image.html url="/images/bitly.png" description="Tela Acesso Rápido" %}
-
-+ Acesse a planilha clicando em `Liquidação`.
+Uma planilha de cálculo foi criada e configurada com objetivo de facilitar a liquidação dos julgados e está disponível no [link](https://script.google.com/macros/s/AKfycbxUwhPj3pSQ136WEUfM9UnYh4S_FrMCpd8OIK-Xl4RxVY8n4Qk/exec){:target="_blank"}.
 
 {% include image.html url="/images/Tela_Calculos_Online.png" description="Cálculos Online" %}
 
