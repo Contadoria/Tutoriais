@@ -7,7 +7,7 @@ categories:
   - calculos-previdenciarios
 resources:
   - name: "Link para complemento "
-    link: https://chrome.google.com/webstore/detail/c%C3%A1lculos-previdenci%C3%A1rios/cjeahogdijapbbnndojpidgdneeepnla?hl=pt-BR
+    link: https://workspace.google.com/marketplace/app/c%C3%A1lculos_previdenci%C3%A1rios/636397858322?hl=pt_BR
 type: Video
 set: primeiros-passos
 set_order: 3
